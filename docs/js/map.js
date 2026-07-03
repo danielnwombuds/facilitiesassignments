@@ -123,13 +123,43 @@
       .replaceAll("'", "&#39;");
   }
 
-  function isHttpUrl(value) {
-    try {
-      const url = new URL(value);
-      return url.protocol === "http:" || url.protocol === "https:";
-    } catch {
-      return false;
+  function normalizeHttpUrl(value) {
+    const text = String(value ?? "").trim();
+    if (!text) {
+      return null;
     }
+
+    const candidates = [text];
+    if (!/^https?:\/\//i.test(text)) {
+      candidates.push(`https://${text}`);
+    }
+
+    for (const candidate of candidates) {
+      try {
+        const url = new URL(candidate);
+        if (url.protocol === "http:" || url.protocol === "https:") {
+          return url.href;
+        }
+      } catch {
+        // try next candidate
+      }
+    }
+
+    return null;
+  }
+
+  function linkOrText(value) {
+    const text = String(value ?? "").trim();
+    if (!text) {
+      return "—";
+    }
+
+    const href = normalizeHttpUrl(text);
+    if (!href) {
+      return escapeHtml(text);
+    }
+
+    return `<a href="${escapeHtml(href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
   }
 
   function mapsUrl(address) {
@@ -143,16 +173,9 @@
 
   function renderDetails(props) {
     const address = (props.address || "").trim();
-    const reports = (props.reports_location || "").trim();
 
     const addressHtml = address
       ? `<a href="${escapeHtml(mapsUrl(address))}" target="_blank" rel="noopener noreferrer">${escapeHtml(address)}</a>`
-      : "—";
-
-    const reportsHtml = reports
-      ? isHttpUrl(reports)
-        ? `<a href="${escapeHtml(reports)}" target="_blank" rel="noopener noreferrer">${escapeHtml(reports)}</a>`
-        : escapeHtml(reports)
       : "—";
 
     detailsEl.innerHTML = `
@@ -184,11 +207,11 @@
         </div>
         <div>
           <dt>Reports Location</dt>
-          <dd>${reportsHtml}</dd>
+          <dd>${linkOrText(props.reports_location)}</dd>
         </div>
         <div>
           <dt>Service Disclosure</dt>
-          <dd>${escapeHtml(displayValue(props.service_disclosure))}</dd>
+          <dd>${linkOrText(props.service_disclosure)}</dd>
         </div>
         <div>
           <dt>Beds</dt>
