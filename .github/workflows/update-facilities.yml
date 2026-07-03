@@ -1,0 +1,55 @@
+name: Update facilities GeoJSON
+
+on:
+  schedule:
+    # Daily at 14:00 UTC (7:00 AM Pacific)
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build GeoJSON from Google Sheet
+        env:
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          SHEET_NAME: ${{ vars.SHEET_NAME }}
+          SHEET_GID: ${{ vars.SHEET_GID }}
+        run: |
+          if [ -z "$GOOGLE_SHEET_ID" ]; then
+            echo "Missing secret GOOGLE_SHEET_ID"
+            exit 1
+          fi
+
+          SHEET_NAME="${SHEET_NAME:-DSHS Data Raw}"
+          ARGS=(--sheet-id "$GOOGLE_SHEET_ID" --output docs/data/facilities.geojson)
+          if [ -n "$SHEET_GID" ]; then
+            ARGS+=(--gid "$SHEET_GID")
+          else
+            ARGS+=(--sheet-name "$SHEET_NAME")
+          fi
+
+          python3 scripts/sheet_to_geojson.py "${ARGS[@]}"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/facilities.geojson
+          if git diff --staged --quiet; then
+            echo "No changes to facilities.geojson"
+            exit 0
+          fi
+          git commit -m "Update facilities GeoJSON from Google Sheet"
+          git push

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WA DSHS Facilities Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+    />
+    <link rel="stylesheet" href="css/map.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>WA DSHS Facilities Map</h1>
+        <p>Pin color = assignee · Pin shape = facility subtype</p>
+      </div>
+      <div id="status">Loading…</div>
+    </header>
+
+    <aside class="sidebar">
+      <section class="panel" id="details-panel">
+        <h2>Facility details</h2>
+        <div id="details">
+          <p class="details-empty">Click a facility pin to see details.</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Assignee colors</h2>
+        <div id="assignee-legend" class="legend-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Subtype shapes</h2>
+        <div id="subtype-legend" class="legend-list"></div>
+      </section>
+    </aside>
+
+    <div id="map" role="application" aria-label="Facilities map"></div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="js/map.js"></script>
+  </body>
+</html>

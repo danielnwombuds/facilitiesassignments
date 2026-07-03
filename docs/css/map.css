@@ -1,0 +1,245 @@
+:root {
+  --bg: #0f172a;
+  --panel: #111827;
+  --panel-border: #1f2937;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #38bdf8;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+body {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header"
+    "sidebar map";
+}
+
+.site-header {
+  grid-area: header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 1.25rem;
+  border-bottom: 1px solid var(--panel-border);
+  background: rgba(15, 23, 42, 0.96);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 650;
+  letter-spacing: 0.01em;
+}
+
+.site-header p {
+  margin: 0.15rem 0 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+#status {
+  color: var(--muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+#map {
+  grid-area: map;
+  min-height: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 0;
+  overflow: auto;
+  padding: 1rem;
+  border-right: 1px solid var(--panel-border);
+  background: var(--panel);
+}
+
+.panel {
+  background: #0b1220;
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  box-shadow: var(--shadow);
+}
+
+.panel h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 650;
+}
+
+.legend-list {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.86rem;
+  color: var(--muted);
+}
+
+.legend-swatch,
+.legend-shape {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
+.legend-swatch {
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.legend-shape {
+  display: grid;
+  place-items: center;
+}
+
+.legend-shape svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.details-empty {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.details-title {
+  margin: 0 0 0.85rem;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.details-list {
+  display: grid;
+  gap: 0.7rem;
+  margin: 0;
+}
+
+.details-list dt {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.details-list dd {
+  margin: 0.2rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.details-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.details-list a:hover {
+  text-decoration: underline;
+}
+
+.marker-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.marker-icon svg {
+  display: block;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.45));
+}
+
+.marker-icon.is-selected svg {
+  filter:
+    drop-shadow(0 0 0 2px #fff)
+    drop-shadow(0 2px 6px rgba(0, 0, 0, 0.55));
+}
+
+.leaflet-container {
+  background: #0b1220;
+  font: inherit;
+}
+
+.leaflet-control-zoom a {
+  background: #111827 !important;
+  color: var(--text) !important;
+  border-color: var(--panel-border) !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(17, 24, 39, 0.85) !important;
+  color: var(--muted) !important;
+}
+
+.leaflet-control-attribution a {
+  color: var(--accent) !important;
+}
+
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  background-color: rgba(56, 189, 248, 0.25);
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+  background-color: rgba(56, 189, 248, 0.85);
+  color: #0f172a;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "map";
+  }
+
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid var(--panel-border);
+    max-height: 42vh;
+  }
+
+  #map {
+    min-height: 55vh;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "features": [],
+  "metadata": {
+    "feature_count": 0,
+    "skipped_rows": 0,
+    "note": "Placeholder. Run the Update facilities GeoJSON workflow after configuring GOOGLE_SHEET_ID."
+  }
+}
