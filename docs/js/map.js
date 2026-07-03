@@ -48,10 +48,13 @@
     maxZoom: 19,
   }).addTo(map);
 
+  // Keep pins separate at normal zoom; only bubble-cluster when zoomed far out.
   const clusterGroup = L.markerClusterGroup({
     showCoverageOnHover: false,
-    maxClusterRadius: 48,
+    maxClusterRadius: 24,
+    disableClusteringAtZoom: 7,
     spiderfyOnMaxZoom: true,
+    removeOutsideVisibleBounds: true,
   });
   map.addLayer(clusterGroup);
 
