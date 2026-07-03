@@ -1,9 +1,2817 @@
 {
   "type": "FeatureCollection",
-  "features": [],
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.479751,
+          48.71332
+        ]
+      },
+      "properties": {
+        "name": "MT BAKER CARE CENTER",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "2905 CONNELLY AVE, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Barb Mattson",
+        "color": "Blue",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1333",
+        "service_disclosure": "",
+        "beds": "70",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.265718,
+          48.498969
+        ]
+      },
+      "properties": {
+        "name": "LIFE CARE CENTER OF SKAGIT VALLEY",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "1462 WEST STATE ROUTE 20, SEDRO WOOLLEY, WA",
+        "county": "Skagit",
+        "assignee": "Jessy Forsmo-Shadid",
+        "color": "Green",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1388",
+        "service_disclosure": "",
+        "beds": "150",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.502558,
+          48.780478
+        ]
+      },
+      "properties": {
+        "name": "Alderwood Park Health and Rehabilitation of Cascadia",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "2726 Alderwood Ave, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Daniel West",
+        "color": "Red",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1735",
+        "service_disclosure": "",
+        "beds": "102",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.314091,
+          48.419797
+        ]
+      },
+      "properties": {
+        "name": "LIFE CARE CENTER OF MOUNT VERNON",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "2120 EAST DIVISION ST, MOUNT VERNON, WA",
+        "county": "Skagit",
+        "assignee": "Barb Mattson",
+        "color": "Blue",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1393",
+        "service_disclosure": "",
+        "beds": "121",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.437697,
+          48.963307
+        ]
+      },
+      "properties": {
+        "name": "CHRISTIAN HEALTH CARE CENTER",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "855 AARON DRIVE, LYNDEN, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1322",
+        "service_disclosure": "",
+        "beds": "122",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31761,
+          48.419116
+        ]
+      },
+      "properties": {
+        "name": "Mira Vista Care Center",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "300 S 18th Street, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Laura Chouinard",
+        "color": "Orange",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1645",
+        "service_disclosure": "",
+        "beds": "94",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.496494,
+          48.811832
+        ]
+      },
+      "properties": {
+        "name": "North Cascades Health and Rehabilitation",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "4680 Cordata Parkway, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1680",
+        "service_disclosure": "",
+        "beds": "122",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.746874,
+          48.999588
+        ]
+      },
+      "properties": {
+        "name": "Stafholt Health and Rehabilitation of Cascadia",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "456 C St, Blaine, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1736",
+        "service_disclosure": "",
+        "beds": "57",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.469222,
+          48.77259
+        ]
+      },
+      "properties": {
+        "name": "Avalon Healthcare - Bellingham",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "3121 Squalicum Parkway, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1752",
+        "service_disclosure": "",
+        "beds": "120",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.464359,
+          48.709287
+        ]
+      },
+      "properties": {
+        "name": "Highland Health and Rehabilitation of Cascadia",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "2400 Samish Way, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1738",
+        "service_disclosure": "",
+        "beds": "44",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.681558,
+          48.21465
+        ]
+      },
+      "properties": {
+        "name": "Regency Coupeville Rehabilitation and Nursing Center",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "311 NE 3rd St, Coupeville, WA",
+        "county": "Island",
+        "assignee": "Jessy Forsmo-Shadid",
+        "color": "Green",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1625",
+        "service_disclosure": "",
+        "beds": "112",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.614331,
+          48.500081
+        ]
+      },
+      "properties": {
+        "name": "Anacortes Health and Rehabilitation",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "1105 27th St, Anacortes, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1759",
+        "service_disclosure": "",
+        "beds": "44",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.464652,
+          48.750255
+        ]
+      },
+      "properties": {
+        "name": "Rock Hill Health & Rehabilitation",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "1530 James St, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1761",
+        "service_disclosure": "",
+        "beds": "52",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.230134,
+          48.524679
+        ]
+      },
+      "properties": {
+        "name": "Cross Creek AFH",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "720 SHOESHEL DR, SEDRO WOOLLEY, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=756388",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=756388",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Prather, Mary E."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.678741,
+          48.290205
+        ]
+      },
+      "properties": {
+        "name": "Platinum Care 365",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1685 SW 10th Ave, Oak Harbor, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755858",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755858",
+        "beds": "4",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Goldsmith, Billie L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.569665,
+          48.892033
+        ]
+      },
+      "properties": {
+        "name": "La Casa De Esperanza",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1637 GRANDVIEW PL, FERNDALE, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757146",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757146",
+        "beds": "3",
+        "specialties": "Developmental Disabilities",
+        "facility_poc": "Utecht, Brittiny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.911041,
+          48.526728
+        ]
+      },
+      "properties": {
+        "name": "HAMLET HOUSE",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "273 VILLAGE RD, LOPEZ ISLAND, WA",
+        "county": "San Juan",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=750894",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=750894",
+        "beds": "8",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Hatchel, Amy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6389,
+          48.94186
+        ]
+      },
+      "properties": {
+        "name": "VINYARD HAVEN ADULT FAMILY HOME",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "8285 CUSTER SCHOOL RD, CUSTER, WA",
+        "county": "Whatcom",
+        "assignee": "Tamara Carlstrom",
+        "color": "Purple",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=750840",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=750840",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "LARSEN, TERESA T."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.225636,
+          48.49497
+        ]
+      },
+      "properties": {
+        "name": "JOSHUAS HOUSE",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1809 TOWNSHIP ST, SEDRO WOOLLEY, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=750071",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=750071",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Anderson, Lisa A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.643912,
+          48.509596
+        ]
+      },
+      "properties": {
+        "name": "CARING HEARTS ADULT FAMILY HOME",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3019 W 2nd St, Anacortes, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=692000",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=692000",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Cook, Terina I."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.483615,
+          48.901392
+        ]
+      },
+      "properties": {
+        "name": "LAKESIDE GARDENS ON WISER LAKE",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "130 Misty Waters Ln, LYNDEN, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=419600",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=419600",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Laughlin, Darla R."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.52637,
+          48.775578
+        ]
+      },
+      "properties": {
+        "name": "Emmanuel Charity AFH Inc",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3446 Cottonwood Ave, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=756830",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=756830",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Muigai, Karen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.489108,
+          48.196071
+        ]
+      },
+      "properties": {
+        "name": "Camano Senior Care LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "116 Chase Way, Camano Island, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755490",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755490",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Dondos, George J."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.316064,
+          48.428578
+        ]
+      },
+      "properties": {
+        "name": "SKAGIT VALLEY ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1931 EAST FIR STREET, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757067",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757067",
+        "beds": "5",
+        "specialties": "Dementia, Developmental Disabilities",
+        "facility_poc": "LECHA, JOSHUA K."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254334,
+          48.99365
+        ]
+      },
+      "properties": {
+        "name": "Beyond Sight AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1090 Victoria St, Sumas, WA",
+        "county": "Whatcom",
+        "assignee": "Tamara Carlstrom",
+        "color": "Purple",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757617",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757617",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Githiri, Nancy H."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.680342,
+          48.219187
+        ]
+      },
+      "properties": {
+        "name": "SYLVIAS ADULT HOME",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "707 NE Gould St, Coupeville, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=667900",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=667900",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Robbins Miller, Jimma D."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.599584,
+          48.185597
+        ]
+      },
+      "properties": {
+        "name": "PACIFIC PALISADES AFH",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "280 DENNEBOOM RD, COUPEVILLE, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=699700",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=699700",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Eck, Kenia X."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.630739,
+          48.889012
+        ]
+      },
+      "properties": {
+        "name": "GRACE ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "6826 DAFFODIL TERRACE, FERNDALE, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=750378",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=750378",
+        "beds": "8",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Mekonnen, Tsegaye A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.679448,
+          48.24317
+        ]
+      },
+      "properties": {
+        "name": "Angells on Whidbey Adult Family Home",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "905 Burroughs Ave, Oak Harbor, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=752625",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=752625",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Brodt, Chrysta S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.442713,
+          48.820511
+        ]
+      },
+      "properties": {
+        "name": "SWEET GOLDEN YEARS INCORPORATED",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "4952 HANNEGAN RD, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=751011",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=751011",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "TUREK, MICHELLE L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.603536,
+          48.847981
+        ]
+      },
+      "properties": {
+        "name": "LEE MANOR",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2233 MAIN ST, FERNDALE, WA",
+        "county": "Whatcom",
+        "assignee": "Daniel West",
+        "color": "Red",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=751518",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=751518",
+        "beds": "2",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "LEE, ANNETTA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.595311,
+          48.861914
+        ]
+      },
+      "properties": {
+        "name": "The Malloy Place 2",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "6072 MALLOY AVE, Ferndale, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753240",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753240",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Paez, Marlene C."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323823,
+          48.409955
+        ]
+      },
+      "properties": {
+        "name": "Holistic Care Center LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1402 Fowler St, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=754823",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=754823",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "MACARILAY, MARY JOY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.284112,
+          48.423895
+        ]
+      },
+      "properties": {
+        "name": "Lilac Gardens Adult Family Home, LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "130 Lilac Dr, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755586",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755586",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Mason, Kananu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.748545,
+          48.941846
+        ]
+      },
+      "properties": {
+        "name": "Julie's Bayview Inc",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "8261 HARBORVIEW RD, BLAINE, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=754381",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=754381",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Hill, Johanna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.445075,
+          48.822949
+        ]
+      },
+      "properties": {
+        "name": "Taylor Adult Family Home",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "5015 Hannegan Rd, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753492",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753492",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Wayne, Victoria P."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.432615,
+          48.950325
+        ]
+      },
+      "properties": {
+        "name": "Glorious Family Home Care Inc",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "201 S GARDEN DR, LYNDEN, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753663",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753663",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Shinohara, Ryo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45356,
+          48.950457
+        ]
+      },
+      "properties": {
+        "name": "Maple Park Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "319 S PARK ST, LYNDEN, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755774",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755774",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Hartl-OLeary, Joana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.468177,
+          48.947136
+        ]
+      },
+      "properties": {
+        "name": "P&M Among Friends LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "612 DAHLIA STREET, LYNDEN, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755579",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755579",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Tsige, Aemere"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.323968,
+          48.44241
+        ]
+      },
+      "properties": {
+        "name": "Beacons of Hope Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1430 Sunset Pl, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=756400",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=756400",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Mwaura, Josephine W."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.219656,
+          48.502162
+        ]
+      },
+      "properties": {
+        "name": "Living In Comfort LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1231 Warner St, Sedro Woolley, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753581",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753581",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Seifu, Emebet T."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.225438,
+          48.524673
+        ]
+      },
+      "properties": {
+        "name": "SEDRO WOOLLEY ADULT FAMILY HOME",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "904 ALDERWOOD LANE, SEDRO WOOLLEY, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757591",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757591",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Areda, Samrawit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.322044,
+          48.420309
+        ]
+      },
+      "properties": {
+        "name": "Kayden's Loving Care",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "121 Claremont Pl, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757881",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757881",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "O'Leary, Karen S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.618575,
+          48.847845
+        ]
+      },
+      "properties": {
+        "name": "Mountain View AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2545 Mountain View Road, Ferndale, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=754721",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=754721",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Hartl-OLeary, Joana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.666039,
+          48.744642
+        ]
+      },
+      "properties": {
+        "name": "Happy Quest Adult Family LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2835 Haxton Way, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758123",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758123",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Mbaya, Sammy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292726,
+          48.437807
+        ]
+      },
+      "properties": {
+        "name": "Bakerview Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3620 Tundra Ct, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758131",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758131",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Ames, Edna A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.919398,
+          48.705658
+        ]
+      },
+      "properties": {
+        "name": "ORCAS LOVING CARE INC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "113 MICHAEL LANE, EASTSOUND, WA",
+        "county": "San Juan",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=752235",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=752235",
+        "beds": "3",
+        "specialties": "Dementia",
+        "facility_poc": "Tyree, Timothy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247207,
+          48.512376
+        ]
+      },
+      "properties": {
+        "name": "GARDEN OF EDEN LUXURY AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "211 Garden of Eden Rd, Sedro Woolley, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758172",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758172",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Abraha, Robel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.588691,
+          48.539821
+        ]
+      },
+      "properties": {
+        "name": "HEAVENLY CARE INC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "7055 HOLIDAY BLVD, ANACORTES, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=752144",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=752144",
+        "beds": "2",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "RICHMOND, LAWRENCE E."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47884,
+          48.713248
+        ]
+      },
+      "properties": {
+        "name": "SUMMIT PLACE ASSISTED LIVING",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2905   CONNELLY   AVE, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1606",
+        "service_disclosure": "",
+        "beds": "47",
+        "specialties": "",
+        "facility_poc": "McMains, Elizabeth M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.660705,
+          48.292795
+        ]
+      },
+      "properties": {
+        "name": "Welcome Home (Oak Harbor Senior Memory Care)",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "235 SW 6TH AVE, OAK HARBOR, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2424",
+        "service_disclosure": "",
+        "beds": "52",
+        "specialties": "",
+        "facility_poc": "Rush, Myan M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.649538,
+          48.301907
+        ]
+      },
+      "properties": {
+        "name": "ANTHEA ANDREA AFH, LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "450 NE Harvest Dr, Oak Harbor, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758405",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758405",
+        "beds": "4",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Santos, Irene"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.286921,
+          48.438993
+        ]
+      },
+      "properties": {
+        "name": "Rainbow Ridge AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "4156 McLaughlin Rd, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758369",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758369",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Kamau, Samuel K."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.519539,
+          48.011174
+        ]
+      },
+      "properties": {
+        "name": "Maple Ridge Assisted Living Community",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1767 Alliance Avenue, Freeland, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1966",
+        "service_disclosure": "",
+        "beds": "81",
+        "specialties": "",
+        "facility_poc": "Chambers, Brenda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.405533,
+          48.957608
+        ]
+      },
+      "properties": {
+        "name": "Caring and Comfort Adult Family Home",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2123 Lagerwey Cir, Lynden, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758409",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758409",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Brar, Simran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.309034,
+          48.444825
+        ]
+      },
+      "properties": {
+        "name": "PRIMENOOK AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2519 Northwoods Loop Rd, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758149",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758149",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "MUHINJA, MAXWELL K."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61539,
+          48.511846
+        ]
+      },
+      "properties": {
+        "name": "CHANDLER'S SQUARE",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1300 O AVE, ANACORTES, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1190",
+        "service_disclosure": "",
+        "beds": "37",
+        "specialties": "",
+        "facility_poc": "Howlett, Melissa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.496787,
+          48.799535
+        ]
+      },
+      "properties": {
+        "name": "Silverado Bellingham",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "4400 Columbine Dr, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2517",
+        "service_disclosure": "",
+        "beds": "85",
+        "specialties": "",
+        "facility_poc": "Printy, Laura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.660043,
+          48.291955
+        ]
+      },
+      "properties": {
+        "name": "Summer Hill Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "165 SW 6th Ave, Oak Harbor, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2676",
+        "service_disclosure": "",
+        "beds": "93",
+        "specialties": "",
+        "facility_poc": "Martin, Wendy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.409389,
+          48.778321
+        ]
+      },
+      "properties": {
+        "name": "M & S Grace Manor Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3786 Britton Rd, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Daniel West",
+        "color": "Red",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755708",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755708",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Shiferaw, Eyoel S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.437266,
+          48.947818
+        ]
+      },
+      "properties": {
+        "name": "T&A Adult Care Lynden LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "925 E Front St, Lynden, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=755601",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=755601",
+        "beds": "8",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Gebreyes, Hanna T."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.603465,
+          48.849427
+        ]
+      },
+      "properties": {
+        "name": "Avista Senior Living Ferndale",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2240 Main St, Ferndale, WA",
+        "county": "Whatcom",
+        "assignee": "Daniel West",
+        "color": "Red",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2677",
+        "service_disclosure": "",
+        "beds": "47",
+        "specialties": "",
+        "facility_poc": "Franklin, Chloe R."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.621141,
+          48.493969
+        ]
+      },
+      "properties": {
+        "name": "LIGHTHOUSE MEMORY CARE",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "3502 K AVENUE, ANACORTES, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2204",
+        "service_disclosure": "",
+        "beds": "39",
+        "specialties": "",
+        "facility_poc": "Margeson, Todd D."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291436,
+          48.414947
+        ]
+      },
+      "properties": {
+        "name": "Park Ridge Care Home",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1026 S 38th Pl, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758568",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758568",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "ODINGO, SIDNEY O."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.319363,
+          48.439811
+        ]
+      },
+      "properties": {
+        "name": "SKAGIT RIVER ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2120 Forest Dr, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758550",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758550",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Tekle, Bereket"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.433204,
+          48.953461
+        ]
+      },
+      "properties": {
+        "name": "DELIGHT CARE AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1048 Ridgeway Dr, Lynden, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758304",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758304",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Habtemaryam, Selas D."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.618577,
+          48.848135
+        ]
+      },
+      "properties": {
+        "name": "GRACE RETIREMENT HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2543 MOUNTAIN VIEW RD, FERNDALE, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1722",
+        "service_disclosure": "",
+        "beds": "12",
+        "specialties": "",
+        "facility_poc": "Mekonnen, Tsegaye A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299344,
+          48.440445
+        ]
+      },
+      "properties": {
+        "name": "AGAPE 1ST AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3206 Trumpeter Dr, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758365",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758365",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "ARAYA, SELAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.229281,
+          48.499126
+        ]
+      },
+      "properties": {
+        "name": "FRACULATE ADULT FAMILY HOME",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "708 Jameson St, Sedro Woolley, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757319",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757319",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Okumu, Maureen A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.467488,
+          48.724166
+        ]
+      },
+      "properties": {
+        "name": "ARCADIA ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "910 38TH ST, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=694000",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=694000",
+        "beds": "2",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "North, Olga M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.483138,
+          48.794634
+        ]
+      },
+      "properties": {
+        "name": "HIGHGATE SENIOR LIVING",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "155 E KELLOGG RD, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2097",
+        "service_disclosure": "",
+        "beds": "77",
+        "specialties": "",
+        "facility_poc": "Moffett, Eric C."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.329252,
+          48.464125
+        ]
+      },
+      "properties": {
+        "name": "Creekside Continuing Care Community",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "400 Gilkey Rd, Burlington, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2316",
+        "service_disclosure": "",
+        "beds": "101",
+        "specialties": "",
+        "facility_poc": "Bowman, Catherine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.020889,
+          48.530852
+        ]
+      },
+      "properties": {
+        "name": "Village at the Harbor",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "543 Spring St, Friday Harbor, WA",
+        "county": "San Juan",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2608",
+        "service_disclosure": "",
+        "beds": "36",
+        "specialties": "",
+        "facility_poc": "Levasheff, TINA S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.320723,
+          48.419482
+        ]
+      },
+      "properties": {
+        "name": "Evergreen Golden Age",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "221 Belmont Terrace, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758779",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758779",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Liu, Brandon S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.289122,
+          48.421611
+        ]
+      },
+      "properties": {
+        "name": "FAIRMONT MANOR CARE CENTER INC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "112 N 39TH PL, MOUNT VERNON, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=752407",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=752407",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Fuertes, Maria L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.453114,
+          48.958838
+        ]
+      },
+      "properties": {
+        "name": "MEADOW GREENS",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "301 HOMESTEAD BLVD, LYNDEN, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1504",
+        "service_disclosure": "",
+        "beds": "33",
+        "specialties": "",
+        "facility_poc": "HOWELL, JOSHUA R."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.317392,
+          48.420298
+        ]
+      },
+      "properties": {
+        "name": "Mountain Glen Retirement Community",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1810 E Division St, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2328",
+        "service_disclosure": "",
+        "beds": "83",
+        "specialties": "",
+        "facility_poc": "Johnson, Kimberly A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.661384,
+          48.291966
+        ]
+      },
+      "properties": {
+        "name": "Whidbey Island Memory Care",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "171 SW 6TH AVE, OAK HARBOR, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2769",
+        "service_disclosure": "",
+        "beds": "50",
+        "specialties": "",
+        "facility_poc": "Martin, Wendy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67109,
+          48.2855
+        ]
+      },
+      "properties": {
+        "name": "REGENCY ON WHIDBEY",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1040 SW KIMBALL DRIVE, OAK HARBOR, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1739",
+        "service_disclosure": "",
+        "beds": "73",
+        "specialties": "",
+        "facility_poc": "FLAHERTY, WILMA JO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.497609,
+          48.799048
+        ]
+      },
+      "properties": {
+        "name": "Cordata Court, Assisted Living & Memory Care",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "4415 Columbine Dr, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2481",
+        "service_disclosure": "",
+        "beds": "115",
+        "specialties": "",
+        "facility_poc": "Mason, Kristina B."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.224857,
+          48.493146
+        ]
+      },
+      "properties": {
+        "name": "Birchview Memory Care Community",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "925 Dunlop St, Sedro Woolley, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2760",
+        "service_disclosure": "",
+        "beds": "62",
+        "specialties": "",
+        "facility_poc": "Padilla, Shannon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.425543,
+          48.762751
+        ]
+      },
+      "properties": {
+        "name": "Bellingham Adult Family Homes",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3614 Alabama St, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Daniel West",
+        "color": "Red",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=754749",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=754749",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "ANTON, CONSTANTIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312152,
+          48.421421
+        ]
+      },
+      "properties": {
+        "name": "Whispering Willows of Mount Vernon",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2311 E Division St, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2726",
+        "service_disclosure": "",
+        "beds": "82",
+        "specialties": "",
+        "facility_poc": "Bah, Gavina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318502,
+          48.414356
+        ]
+      },
+      "properties": {
+        "name": "BY FAITH ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1108 S 18th St, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758905",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758905",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "WAITHAKA, FAITH M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.313937,
+          48.419223
+        ]
+      },
+      "properties": {
+        "name": "THE BRIDGE ASSISTED LIVING AT MOUNT VERNON",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "301 S Laventure Rd, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1826",
+        "service_disclosure": "",
+        "beds": "50",
+        "specialties": "",
+        "facility_poc": "Nicholson, Shannon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.494453,
+          48.761128
+        ]
+      },
+      "properties": {
+        "name": "Columbia Place",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2315 Williams St, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
+        "service_disclosure": "",
+        "beds": "37",
+        "specialties": "",
+        "facility_poc": "Yesian, George A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326941,
+          48.474904
+        ]
+      },
+      "properties": {
+        "name": "OVENELL HOME ALF INC",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "625 E Washington Ave, Burlington, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2172",
+        "service_disclosure": "",
+        "beds": "26",
+        "specialties": "",
+        "facility_poc": "ZIMMERMANN, JOHN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292682,
+          48.438005
+        ]
+      },
+      "properties": {
+        "name": "P AND K Haven Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3625 Tundra Ct, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758849",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758849",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Kamau, Florence W."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.488809,
+          48.776643
+        ]
+      },
+      "properties": {
+        "name": "Birchwood ALF",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1200 Birchwood Ave, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2771",
+        "service_disclosure": "",
+        "beds": "84",
+        "specialties": "",
+        "facility_poc": "Billings, Jenny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.513286,
+          48.173816
+        ]
+      },
+      "properties": {
+        "name": "Crest View LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1032 CIRCLE DRIVE, CAMANO ISLAND, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758668",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758668",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Kifle, Netsanet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.478399,
+          48.94297
+        ]
+      },
+      "properties": {
+        "name": "Grace Wood Creek LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "503 Wood Creek Dr, Lynden, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758943",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758943",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Shiferaw, Meron S."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291415,
+          48.436297
+        ]
+      },
+      "properties": {
+        "name": "Ashley Gardens of Mt Vernon",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "3807 E College Way, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1948",
+        "service_disclosure": "",
+        "beds": "40",
+        "specialties": "",
+        "facility_poc": "Bowman, Catherine"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.482631,
+          48.779267
+        ]
+      },
+      "properties": {
+        "name": "ORCHARD PARK ASSISTED LIVING",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "844 W ORCHARD DRIVE, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1350",
+        "service_disclosure": "",
+        "beds": "96",
+        "specialties": "",
+        "facility_poc": "Gollen, Ruth M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.499515,
+          48.776508
+        ]
+      },
+      "properties": {
+        "name": "Maplewood ESF",
+        "type": "Residential Care",
+        "subtype": "Enhanced Services Facility",
+        "address": "2626 W Maplewood Ave, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/ESFForms.aspx?lic=1000012",
+        "service_disclosure": "",
+        "beds": "16",
+        "specialties": "",
+        "facility_poc": "Billings, Jenny"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.292653,
+          48.440476
+        ]
+      },
+      "properties": {
+        "name": "Senior Services Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3707 Trumpeter Ct, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758924",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758924",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Ngaruiya, Rachel J."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.670444,
+          48.284974
+        ]
+      },
+      "properties": {
+        "name": "REGENCY ON WHIDBEY",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1045 SW KIMBALL DR, OAK HARBOR, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1738",
+        "service_disclosure": "",
+        "beds": "41",
+        "specialties": "",
+        "facility_poc": "FLAHERTY, WILMA JO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.495301,
+          48.39333
+        ]
+      },
+      "properties": {
+        "name": "La Conner Retirement Inn",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "204 N 1st St, La Conner, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2254",
+        "service_disclosure": "",
+        "beds": "60",
+        "specialties": "",
+        "facility_poc": "Boydston, Stacy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.483097,
+          48.714286
+        ]
+      },
+      "properties": {
+        "name": "Brookdale Fairhaven",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2600 Old Fairhaven Parkway, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2525",
+        "service_disclosure": "",
+        "beds": "60",
+        "specialties": "",
+        "facility_poc": "Cope, Sherri L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.493896,
+          48.772726
+        ]
+      },
+      "properties": {
+        "name": "Woodway Senior Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1712 E Maplewood Ave, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2563",
+        "service_disclosure": "",
+        "beds": "72",
+        "specialties": "",
+        "facility_poc": "Roe, James K."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.484171,
+          48.779212
+        ]
+      },
+      "properties": {
+        "name": "The Bellingham at Orchard",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "848 West Orchard Dr, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2779",
+        "service_disclosure": "",
+        "beds": "76",
+        "specialties": "",
+        "facility_poc": "Maimin, Michael"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.74933,
+          48.937668
+        ]
+      },
+      "properties": {
+        "name": "Gods Immense Home",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "4917 HENLEY ST, BLAINE, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758667",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758667",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Applewhite, Famous"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.538451,
+          48.006938
+        ]
+      },
+      "properties": {
+        "name": "MELKAM CARE ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1429 Morningside Ln, Freeland, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759070",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759070",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "TEFERA, AZEB A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290609,
+          48.427438
+        ]
+      },
+      "properties": {
+        "name": "Foxglove Manor AFH",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3914 Foxglove Cir, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759088",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759088",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "KIRUKI, LUCY N."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.340693,
+          48.473134
+        ]
+      },
+      "properties": {
+        "name": "Where The Heart Is",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "410 S NORRIS ST, BURLINGTON, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2780",
+        "service_disclosure": "",
+        "beds": "84",
+        "specialties": "",
+        "facility_poc": "Bachman, Jennifer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.486012,
+          48.757929
+        ]
+      },
+      "properties": {
+        "name": "SEAN HUMPHREY HOUSE",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1630 H Street, Bellingham, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=303200",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=303200",
+        "beds": "6",
+        "specialties": "Mental Health",
+        "facility_poc": "Kindy, Patrick I."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.656443,
+          48.298913
+        ]
+      },
+      "properties": {
+        "name": "HARBOR TOWER VILLAGE INC",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "100 E WHIDBEY AVE, OAK HARBOR, WA",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=894",
+        "service_disclosure": "",
+        "beds": "33",
+        "specialties": "",
+        "facility_poc": "Jones, Katie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.224214,
+          48.524137
+        ]
+      },
+      "properties": {
+        "name": "Skagit Senior Living LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "931 Alderwood Ln, Sedro Woolley, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759015",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759015",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Matheos, Biniam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.476545,
+          48.72647
+        ]
+      },
+      "properties": {
+        "name": "Chuckanut Ridge Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "702 32ND ST, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
+        "service_disclosure": "",
+        "beds": "70",
+        "specialties": "",
+        "facility_poc": "BLOCKBURN, VERONICA L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31859,
+          48.476536
+        ]
+      },
+      "properties": {
+        "name": "Homeplace Special Care Center at Burlington",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "210 N SKAGIT ST, BURLINGTON, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2787",
+        "service_disclosure": "",
+        "beds": "46",
+        "specialties": "",
+        "facility_poc": "Croney, Harold"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318799,
+          48.476008
+        ]
+      },
+      "properties": {
+        "name": "Homeplace Respite",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "112 N SKAGIT ST, BURLINGTON, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2786",
+        "service_disclosure": "",
+        "beds": "16",
+        "specialties": "",
+        "facility_poc": "Croney, Harold"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.61509,
+          48.500629
+        ]
+      },
+      "properties": {
+        "name": "Rosario Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1119 26th Street, Anacortes, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2528",
+        "service_disclosure": "",
+        "beds": "94",
+        "specialties": "",
+        "facility_poc": "Brooks, Thomas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279344,
+          48.496064
+        ]
+      },
+      "properties": {
+        "name": "COUNTRY MEADOW VILLAGE",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1501 COLLINS RD, SEDRO WOOLLEY, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1020",
+        "service_disclosure": "",
+        "beds": "50",
+        "specialties": "",
+        "facility_poc": "Nichols, Stephanie M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.436207,
+          48.963127
+        ]
+      },
+      "properties": {
+        "name": "Lynden Manor",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "905 Aaron Dr, Lynden, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2641",
+        "service_disclosure": "",
+        "beds": "115",
+        "specialties": "",
+        "facility_poc": "Hollander, Shannon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.611837,
+          48.504751
+        ]
+      },
+      "properties": {
+        "name": "Cypress Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "911 21st St, Anacortes, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2789",
+        "service_disclosure": "",
+        "beds": "44",
+        "specialties": "",
+        "facility_poc": "Brooks, Thomas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.250404,
+          48.53321
+        ]
+      },
+      "properties": {
+        "name": "Harmony Adult Family Home LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "22906 GREENOUGH LANE, SEDRO WOOLLEY, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753411",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753411",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Kidanemariam, Ruth G."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.22379,
+          48.383913
+        ]
+      },
+      "properties": {
+        "name": "LAKESIDE AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "18034 Mariposa Ln, Mount Vernon, WA",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759142",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759142",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "WILLIAMS, BRUCE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.481513,
+          48.788715
+        ]
+      },
+      "properties": {
+        "name": "SPRING CREEK RETIREMENT & ASSISTED LIVING COMMUNITY",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "223 EAST BAKERVIEW ROAD, BELLINGHAM, WA",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1913",
+        "service_disclosure": "",
+        "beds": "115",
+        "specialties": "",
+        "facility_poc": "Graham, Jennifer"
+      }
+    }
+  ],
   "metadata": {
-    "feature_count": 0,
-    "skipped_rows": 0,
-    "note": "Placeholder. Run the Update facilities GeoJSON workflow after configuring GOOGLE_SHEET_ID."
+    "feature_count": 117,
+    "skipped_rows": 0
   }
 }
