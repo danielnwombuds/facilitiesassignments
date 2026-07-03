@@ -280,9 +280,26 @@
       .join("");
   }
 
-  async function loadFacilities() {
-    statusEl.textContent = "Loading facilities…";
-    const response = await fetch(`data/facilities.geojson?v=${Date.now()}`);
+  const REFRESH_MS = 5 * 60 * 1000;
+  let hasFittedBounds = false;
+  let selectedName = null;
+
+  async function loadFacilities({ fitBounds = false, quiet = false } = {}) {
+    if (!quiet) {
+      statusEl.textContent = "Loading facilities…";
+    }
+
+    // Bust browser/CDN caches: unique query string + no-store.
+    const response = await fetch(
+      `data/facilities.geojson?t=${Date.now()}`,
+      {
+        cache: "no-store",
+        headers: {
+          "Cache-Control": "no-cache",
+          Pragma: "no-cache",
+        },
+      }
+    );
     if (!response.ok) {
       throw new Error(`Could not load facilities.geojson (${response.status})`);
     }
@@ -290,9 +307,14 @@
     const geojson = await response.json();
     const features = geojson.features || [];
 
-    clusterGroup.clearLayers();
-    clearSelection();
+    if (selectedMarker) {
+      selectedName = selectedMarker.feature.properties.name || null;
+    }
 
+    clusterGroup.clearLayers();
+    selectedMarker = null;
+
+    let restoredMarker = null;
     const layer = L.geoJSON(geojson, {
       pointToLayer(feature, latlng) {
         const marker = L.marker(latlng, {
@@ -301,6 +323,13 @@
         });
         marker.feature = feature;
         marker.on("click", () => selectMarker(marker));
+        if (
+          selectedName &&
+          feature.properties &&
+          feature.properties.name === selectedName
+        ) {
+          restoredMarker = marker;
+        }
         return marker;
       },
     });
@@ -308,22 +337,48 @@
     clusterGroup.addLayer(layer);
     renderLegends(features);
 
-    if (features.length > 0) {
-      map.fitBounds(clusterGroup.getBounds().pad(0.08));
+    if (restoredMarker) {
+      selectMarker(restoredMarker);
+    } else if (selectedName) {
+      selectedName = null;
+      detailsEl.innerHTML =
+        '<p class="details-empty">Click a facility pin to see details.</p>';
     }
 
-    statusEl.textContent = `${features.length.toLocaleString()} facilities`;
+    if ((fitBounds || !hasFittedBounds) && features.length > 0) {
+      map.fitBounds(clusterGroup.getBounds().pad(0.08));
+      hasFittedBounds = true;
+    }
+
+    const updatedAt = new Date().toLocaleTimeString();
+    statusEl.textContent = `${features.length.toLocaleString()} facilities · updated ${updatedAt}`;
   }
 
   map.on("click", () => {
     clearSelection();
+    selectedName = null;
     detailsEl.innerHTML =
       '<p class="details-empty">Click a facility pin to see details.</p>';
   });
 
-  loadFacilities().catch((error) => {
-    console.error(error);
-    statusEl.textContent = "Failed to load data";
-    detailsEl.innerHTML = `<p class="details-empty">${escapeHtml(error.message)}</p>`;
+  function loadFacilitiesOrReport(options) {
+    return loadFacilities(options).catch((error) => {
+      console.error(error);
+      if (!options || !options.quiet) {
+        statusEl.textContent = "Failed to load data";
+        detailsEl.innerHTML = `<p class="details-empty">${escapeHtml(error.message)}</p>`;
+      }
+    });
+  }
+
+  loadFacilitiesOrReport({ fitBounds: true });
+  setInterval(() => {
+    loadFacilitiesOrReport({ quiet: true });
+  }, REFRESH_MS);
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      loadFacilitiesOrReport({ quiet: true });
+    }
   });
 })();
