@@ -2,8 +2,8 @@ name: Update facilities GeoJSON
 
 on:
   schedule:
-    # Daily at 14:00 UTC (7:00 AM Pacific)
-    - cron: "0 14 * * *"
+    # Every 15 minutes
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
