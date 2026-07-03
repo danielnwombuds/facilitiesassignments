@@ -1,4 +1,18 @@
 (() => {
+  /** Same palette order as the Apps Script; assigned alphabetically for stable colors. */
+  const ASSIGNEE_COLOR_PALETTE = [
+    "Blue",
+    "Red",
+    "Green",
+    "Orange",
+    "Purple",
+    "Teal",
+    "Pink",
+    "Yellow",
+    "Peach",
+    "Maroon",
+  ];
+
   const COLOR_HEX = {
     Blue: "#2563eb",
     Red: "#dc2626",
@@ -12,6 +26,8 @@
     Maroon: "#9f1239",
     Grey: "#6b7280",
   };
+
+  const UNASSIGNED_COLOR = "Grey";
 
   // Stable shape per facility subtype.
   const SUBTYPE_SHAPES = {
@@ -64,9 +80,47 @@
   const subtypeLegendEl = document.getElementById("subtype-legend");
 
   let selectedMarker = null;
+  /** assignee name -> palette color name (built on each data load) */
+  let assigneeColorMap = new Map();
 
-  function colorFor(name) {
-    return COLOR_HEX[name] || COLOR_HEX.Grey;
+  function normalizeAssignee(value) {
+    const name = String(value ?? "").trim();
+    return name || "Unassigned";
+  }
+
+  /**
+   * Build a stable assignee → color map from the loaded features.
+   * Assignees are sorted alphabetically so the same pool always gets the same colors.
+   * Unassigned is always Grey.
+   */
+  function buildAssigneeColorMap(features) {
+    const names = new Set();
+    features.forEach((feature) => {
+      const assignee = normalizeAssignee(feature.properties?.assignee);
+      if (assignee !== "Unassigned") {
+        names.add(assignee);
+      }
+    });
+
+    const sorted = [...names].sort((a, b) => a.localeCompare(b));
+    const map = new Map();
+    sorted.forEach((name, index) => {
+      map.set(
+        name,
+        ASSIGNEE_COLOR_PALETTE[index % ASSIGNEE_COLOR_PALETTE.length]
+      );
+    });
+    map.set("Unassigned", UNASSIGNED_COLOR);
+    return map;
+  }
+
+  function colorNameForAssignee(assignee) {
+    const name = normalizeAssignee(assignee);
+    return assigneeColorMap.get(name) || UNASSIGNED_COLOR;
+  }
+
+  function colorHexForAssignee(assignee) {
+    return COLOR_HEX[colorNameForAssignee(assignee)] || COLOR_HEX.Grey;
   }
 
   function shapeFor(subtype) {
@@ -93,8 +147,8 @@
     }
   }
 
-  function markerSvg(colorName, subtype, selected) {
-    const fill = colorFor(colorName);
+  function markerSvg(assignee, subtype, selected) {
+    const fill = colorHexForAssignee(assignee);
     const stroke = selected ? "#ffffff" : "rgba(15, 23, 42, 0.85)";
     const strokeWidth = selected ? 2.4 : 1.4;
     return `
@@ -107,7 +161,7 @@
   function markerIcon(props, selected) {
     return L.divIcon({
       className: `marker-icon${selected ? " is-selected" : ""}`,
-      html: markerSvg(props.color, props.subtype, selected),
+      html: markerSvg(props.assignee, props.subtype, selected),
       iconSize: [22, 22],
       iconAnchor: [11, 11],
       popupAnchor: [0, -10],
@@ -252,22 +306,16 @@
   }
 
   function renderLegends(features) {
-    const assignees = new Map();
     const subtypes = new Set();
 
     features.forEach((feature) => {
       const props = feature.properties || {};
-      const assignee = props.assignee || "Unassigned";
-      const color = props.color || "Grey";
-      if (!assignees.has(assignee)) {
-        assignees.set(assignee, color);
-      }
       if (props.subtype) {
         subtypes.add(props.subtype);
       }
     });
 
-    const assigneeItems = [...assignees.entries()].sort((a, b) => {
+    const assigneeItems = [...assigneeColorMap.entries()].sort((a, b) => {
       if (a[0] === "Unassigned") return 1;
       if (b[0] === "Unassigned") return -1;
       return a[0].localeCompare(b[0]);
@@ -275,7 +323,7 @@
 
     assigneeLegendEl.innerHTML = assigneeItems
       .map(([name, colorName]) => {
-        const hex = colorFor(colorName);
+        const hex = COLOR_HEX[colorName] || COLOR_HEX.Grey;
         return `
           <div class="legend-item">
             <span class="legend-swatch" style="background:${hex}"></span>
@@ -329,6 +377,7 @@
 
     const geojson = await response.json();
     const features = geojson.features || [];
+    assigneeColorMap = buildAssigneeColorMap(features);
 
     if (selectedMarker) {
       selectedName = selectedMarker.feature.properties.name || null;
