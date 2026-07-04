@@ -78,7 +78,7 @@
   const detailsEl = document.getElementById("details");
   const assigneeLegendEl = document.getElementById("assignee-legend");
   const subtypeLegendEl = document.getElementById("subtype-legend");
-  const filterNameEl = document.getElementById("filter-name");
+  const filterSearchEl = document.getElementById("filter-search");
   const filterTypeEl = document.getElementById("filter-type");
   const filterSubtypeEl = document.getElementById("filter-subtype");
   const filterAssigneeEl = document.getElementById("filter-assignee");
@@ -97,7 +97,7 @@
   let allMarkers = [];
   let totalFeatureCount = 0;
   let lastUpdatedAt = "";
-  let nameFilterTimer = null;
+  let searchFilterTimer = null;
 
   function normalizeAssignee(value) {
     const name = String(value ?? "").trim();
@@ -446,9 +446,30 @@
     );
   }
 
+  function searchableText(props) {
+    return [
+      props.name,
+      props.type,
+      props.subtype,
+      props.address,
+      cityFromProps(props),
+      props.county,
+      normalizeAssignee(props.assignee),
+      props.reports_location,
+      props.service_disclosure,
+      props.beds,
+      props.specialties,
+      props.facility_poc,
+    ]
+      .map((value) => String(value ?? "").trim())
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+  }
+
   function getFilterState() {
     return {
-      name: (filterNameEl.value || "").trim().toLowerCase(),
+      search: (filterSearchEl.value || "").trim().toLowerCase(),
       type: filterTypeEl.value,
       subtype: filterSubtypeEl.value,
       assignee: filterAssigneeEl.value,
@@ -459,15 +480,18 @@
 
   function markerMatchesFilters(marker, filters) {
     const props = marker.feature.properties || {};
-    const name = (props.name || "").toLowerCase();
     const type = (props.type || "").trim();
     const subtype = (props.subtype || "").trim();
     const assignee = normalizeAssignee(props.assignee);
     const county = (props.county || "").trim();
     const city = cityFromProps(props);
 
-    if (filters.name && !name.includes(filters.name)) {
-      return false;
+    if (filters.search) {
+      const haystack = searchableText(props);
+      const terms = filters.search.split(/\s+/).filter(Boolean);
+      if (!terms.every((term) => haystack.includes(term))) {
+        return false;
+      }
     }
     if (filters.type && type !== filters.type) {
       return false;
@@ -489,7 +513,7 @@
 
   function filtersAreActive(filters) {
     return Boolean(
-      filters.name ||
+      filters.search ||
         filters.type ||
         filters.subtype ||
         filters.assignee ||
@@ -500,7 +524,7 @@
 
   function countActiveFilters(filters) {
     let count = 0;
-    if (filters.name) count += 1;
+    if (filters.search) count += 1;
     if (filters.type) count += 1;
     if (filters.subtype) count += 1;
     if (filters.assignee) count += 1;
@@ -579,7 +603,7 @@
   }
 
   function clearFilters() {
-    filterNameEl.value = "";
+    filterSearchEl.value = "";
     filterTypeEl.value = "";
     filterSubtypeEl.value = "";
     filterAssigneeEl.value = "";
@@ -676,9 +700,9 @@
     }
   );
 
-  filterNameEl.addEventListener("input", () => {
-    clearTimeout(nameFilterTimer);
-    nameFilterTimer = setTimeout(() => {
+  filterSearchEl.addEventListener("input", () => {
+    clearTimeout(searchFilterTimer);
+    searchFilterTimer = setTimeout(() => {
       applyFilters({ fitBounds: true });
     }, 200);
   });
