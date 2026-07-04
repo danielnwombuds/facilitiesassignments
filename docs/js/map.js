@@ -85,6 +85,10 @@
   const filterCountyEl = document.getElementById("filter-county");
   const filterCityEl = document.getElementById("filter-city");
   const clearFiltersEl = document.getElementById("clear-filters");
+  const filterBarEl = document.getElementById("filter-bar");
+  const toggleFiltersEl = document.getElementById("toggle-filters");
+  const filterPanelEl = document.getElementById("filter-panel");
+  const filterBadgeEl = document.getElementById("filter-badge");
 
   let selectedMarker = null;
   /** assignee name -> palette color name (built on each data load) */
@@ -494,6 +498,36 @@
     );
   }
 
+  function countActiveFilters(filters) {
+    let count = 0;
+    if (filters.name) count += 1;
+    if (filters.type) count += 1;
+    if (filters.subtype) count += 1;
+    if (filters.assignee) count += 1;
+    if (filters.county) count += 1;
+    if (filters.city) count += 1;
+    return count;
+  }
+
+  function isMobileLayout() {
+    return window.matchMedia("(max-width: 900px)").matches;
+  }
+
+  function setFilterPanelOpen(open) {
+    toggleFiltersEl.setAttribute("aria-expanded", open ? "true" : "false");
+    filterPanelEl.hidden = !open;
+    filterBarEl.classList.toggle("is-open", open);
+    window.setTimeout(() => map.invalidateSize(), 160);
+  }
+
+  function updateFilterChrome() {
+    const filters = getFilterState();
+    const count = countActiveFilters(filters);
+    filterBadgeEl.hidden = count === 0;
+    filterBadgeEl.textContent = String(count);
+    clearFiltersEl.hidden = !filtersAreActive(filters);
+  }
+
   function updateStatus(visibleCount) {
     const updated = lastUpdatedAt ? ` · updated ${lastUpdatedAt}` : "";
     if (filtersAreActive(getFilterState())) {
@@ -536,6 +570,7 @@
     }
 
     updateStatus(visible.length);
+    updateFilterChrome();
 
     if (fitBounds && visible.length > 0) {
       map.fitBounds(clusterGroup.getBounds().pad(0.08));
@@ -550,7 +585,20 @@
     filterAssigneeEl.value = "";
     filterCountyEl.value = "";
     filterCityEl.value = "";
+    updateFilterChrome();
     applyFilters({ fitBounds: true });
+  }
+
+  function setupCollapsiblePanel(toggleBtn, bodyEl, defaultOpen) {
+    function setOpen(open) {
+      toggleBtn.setAttribute("aria-expanded", open ? "true" : "false");
+      bodyEl.hidden = !open;
+    }
+
+    setOpen(defaultOpen);
+    toggleBtn.addEventListener("click", () => {
+      setOpen(toggleBtn.getAttribute("aria-expanded") !== "true");
+    });
   }
 
   const REFRESH_MS = 5 * 60 * 1000;
@@ -621,6 +669,9 @@
     (el) => {
       el.addEventListener("change", () => {
         applyFilters({ fitBounds: true });
+        if (isMobileLayout()) {
+          setFilterPanelOpen(false);
+        }
       });
     }
   );
@@ -632,6 +683,10 @@
     }, 200);
   });
 
+  toggleFiltersEl.addEventListener("click", () => {
+    setFilterPanelOpen(toggleFiltersEl.getAttribute("aria-expanded") !== "true");
+  });
+
   clearFiltersEl.addEventListener("click", () => {
     clearFilters();
   });
@@ -639,6 +694,24 @@
   document.getElementById("filters").addEventListener("submit", (event) => {
     event.preventDefault();
     applyFilters({ fitBounds: true });
+  });
+
+  setupCollapsiblePanel(
+    document.querySelector("#legend-assignee-panel .panel-toggle"),
+    assigneeLegendEl,
+    !isMobileLayout()
+  );
+  setupCollapsiblePanel(
+    document.querySelector("#legend-subtype-panel .panel-toggle"),
+    subtypeLegendEl,
+    !isMobileLayout()
+  );
+
+  setFilterPanelOpen(false);
+  updateFilterChrome();
+
+  window.addEventListener("resize", () => {
+    map.invalidateSize();
   });
 
   loadFacilitiesOrReport({ fitBounds: true });

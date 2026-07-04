@@ -25,28 +25,40 @@
   </head>
   <body>
     <header class="site-header">
-      <div>
+      <div class="site-header-title">
         <h1>WA DSHS Facilities Map</h1>
-        <p>Pin color = assignee · Pin shape = facility subtype</p>
+        <p class="site-header-tagline">Pin color = assignee · Pin shape = subtype</p>
       </div>
       <div id="status">Loading…</div>
     </header>
 
-    <aside class="sidebar">
-      <section class="panel" id="filters-panel">
-        <div class="panel-heading">
-          <h2>Filters</h2>
-          <button type="button" id="clear-filters" class="text-button">Clear</button>
-        </div>
+    <section class="filter-bar" id="filter-bar">
+      <div class="filter-bar-toolbar">
+        <label class="filter-search-wrap">
+          <span class="visually-hidden">Search facility name</span>
+          <input
+            id="filter-name"
+            type="search"
+            placeholder="Search name…"
+            autocomplete="off"
+          />
+        </label>
+        <button
+          type="button"
+          id="toggle-filters"
+          class="filter-toggle"
+          aria-expanded="false"
+          aria-controls="filter-panel"
+        >
+          <span class="filter-toggle-label">Filters</span>
+          <span id="filter-badge" class="filter-badge" hidden>0</span>
+        </button>
+        <button type="button" id="clear-filters" class="text-button" hidden>
+          Clear
+        </button>
+      </div>
+      <div id="filter-panel" class="filter-panel" hidden>
         <form id="filters" class="filters" autocomplete="off">
-          <label class="filter-field">
-            <span>Search name</span>
-            <input
-              id="filter-name"
-              type="search"
-              placeholder="Facility name…"
-            />
-          </label>
           <label class="filter-field">
             <span>Type</span>
             <select id="filter-type">
@@ -78,8 +90,10 @@
             </select>
           </label>
         </form>
-      </section>
+      </div>
+    </section>
 
+    <aside class="sidebar">
       <section class="panel" id="details-panel">
         <h2>Facility details</h2>
         <div id="details">
@@ -87,14 +101,30 @@
         </div>
       </section>
 
-      <section class="panel">
-        <h2>Assignee colors</h2>
-        <div id="assignee-legend" class="legend-list"></div>
+      <section class="panel panel-collapsible" id="legend-assignee-panel">
+        <button
+          type="button"
+          class="panel-toggle"
+          aria-expanded="false"
+          aria-controls="assignee-legend"
+        >
+          <h2>Assignee colors</h2>
+          <span class="panel-toggle-icon" aria-hidden="true">▾</span>
+        </button>
+        <div id="assignee-legend" class="legend-list panel-collapsible-body" hidden></div>
       </section>
 
-      <section class="panel">
-        <h2>Subtype shapes</h2>
-        <div id="subtype-legend" class="legend-list"></div>
+      <section class="panel panel-collapsible" id="legend-subtype-panel">
+        <button
+          type="button"
+          class="panel-toggle"
+          aria-expanded="false"
+          aria-controls="subtype-legend"
+        >
+          <h2>Subtype shapes</h2>
+          <span class="panel-toggle-icon" aria-hidden="true">▾</span>
+        </button>
+        <div id="subtype-legend" class="legend-list panel-collapsible-body" hidden></div>
       </section>
     </aside>
 
