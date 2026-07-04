@@ -2131,31 +2131,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.494453,
-          48.761128
-        ]
-      },
-      "properties": {
-        "name": "Columbia Place",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2315 Williams St, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
-        "service_disclosure": "",
-        "beds": "37",
-        "specialties": "",
-        "facility_poc": "Yesian, George A."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.326941,
           48.474904
         ]
@@ -2924,6 +2899,31 @@
         "beds": "115",
         "specialties": "",
         "facility_poc": "Graham, Jennifer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.494453,
+          48.761128
+        ]
+      },
+      "properties": {
+        "name": "Columbia Place",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2315 Williams St, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
+        "service_disclosure": "",
+        "beds": "37",
+        "specialties": "",
+        "facility_poc": "Yesian, George A."
       }
     }
   ],
