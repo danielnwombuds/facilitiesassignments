@@ -78,10 +78,22 @@
   const detailsEl = document.getElementById("details");
   const assigneeLegendEl = document.getElementById("assignee-legend");
   const subtypeLegendEl = document.getElementById("subtype-legend");
+  const filterNameEl = document.getElementById("filter-name");
+  const filterTypeEl = document.getElementById("filter-type");
+  const filterSubtypeEl = document.getElementById("filter-subtype");
+  const filterAssigneeEl = document.getElementById("filter-assignee");
+  const filterCountyEl = document.getElementById("filter-county");
+  const filterCityEl = document.getElementById("filter-city");
+  const clearFiltersEl = document.getElementById("clear-filters");
 
   let selectedMarker = null;
   /** assignee name -> palette color name (built on each data load) */
   let assigneeColorMap = new Map();
+  /** All markers from the latest data load */
+  let allMarkers = [];
+  let totalFeatureCount = 0;
+  let lastUpdatedAt = "";
+  let nameFilterTimer = null;
 
   function normalizeAssignee(value) {
     const name = String(value ?? "").trim();
@@ -351,9 +363,198 @@
       .join("");
   }
 
+  function cityFromProps(props) {
+    const city = (props.city || "").trim();
+    if (city) {
+      return city;
+    }
+
+    // Fallback for older GeoJSON that only has a combined address.
+    const parts = (props.address || "")
+      .split(",")
+      .map((part) => part.trim())
+      .filter(Boolean);
+    if (parts.length >= 3) {
+      return parts[parts.length - 2];
+    }
+    return "";
+  }
+
+  function uniqueSortedValues(features, getter) {
+    const values = new Set();
+    features.forEach((feature) => {
+      const value = getter(feature.properties || {});
+      if (value) {
+        values.add(value);
+      }
+    });
+    return [...values].sort((a, b) => a.localeCompare(b));
+  }
+
+  function fillSelect(selectEl, values, allLabel, preferredOrder = []) {
+    const current = selectEl.value;
+    const ordered = [
+      ...preferredOrder.filter((value) => values.includes(value)),
+      ...values.filter((value) => !preferredOrder.includes(value)),
+    ];
+
+    selectEl.innerHTML = `<option value="">${escapeHtml(allLabel)}</option>`;
+    ordered.forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      selectEl.appendChild(option);
+    });
+
+    if (current && ordered.includes(current)) {
+      selectEl.value = current;
+    } else {
+      selectEl.value = "";
+    }
+  }
+
+  function populateFilters(features) {
+    fillSelect(
+      filterTypeEl,
+      uniqueSortedValues(features, (props) => (props.type || "").trim()),
+      "All types"
+    );
+    fillSelect(
+      filterSubtypeEl,
+      uniqueSortedValues(features, (props) => (props.subtype || "").trim()),
+      "All subtypes",
+      SHAPE_ORDER
+    );
+    fillSelect(
+      filterAssigneeEl,
+      uniqueSortedValues(features, (props) => normalizeAssignee(props.assignee)),
+      "All assignees"
+    );
+    fillSelect(
+      filterCountyEl,
+      uniqueSortedValues(features, (props) => (props.county || "").trim()),
+      "All counties"
+    );
+    fillSelect(
+      filterCityEl,
+      uniqueSortedValues(features, cityFromProps),
+      "All cities"
+    );
+  }
+
+  function getFilterState() {
+    return {
+      name: (filterNameEl.value || "").trim().toLowerCase(),
+      type: filterTypeEl.value,
+      subtype: filterSubtypeEl.value,
+      assignee: filterAssigneeEl.value,
+      county: filterCountyEl.value,
+      city: filterCityEl.value,
+    };
+  }
+
+  function markerMatchesFilters(marker, filters) {
+    const props = marker.feature.properties || {};
+    const name = (props.name || "").toLowerCase();
+    const type = (props.type || "").trim();
+    const subtype = (props.subtype || "").trim();
+    const assignee = normalizeAssignee(props.assignee);
+    const county = (props.county || "").trim();
+    const city = cityFromProps(props);
+
+    if (filters.name && !name.includes(filters.name)) {
+      return false;
+    }
+    if (filters.type && type !== filters.type) {
+      return false;
+    }
+    if (filters.subtype && subtype !== filters.subtype) {
+      return false;
+    }
+    if (filters.assignee && assignee !== filters.assignee) {
+      return false;
+    }
+    if (filters.county && county !== filters.county) {
+      return false;
+    }
+    if (filters.city && city !== filters.city) {
+      return false;
+    }
+    return true;
+  }
+
+  function filtersAreActive(filters) {
+    return Boolean(
+      filters.name ||
+        filters.type ||
+        filters.subtype ||
+        filters.assignee ||
+        filters.county ||
+        filters.city
+    );
+  }
+
+  function updateStatus(visibleCount) {
+    const updated = lastUpdatedAt ? ` · updated ${lastUpdatedAt}` : "";
+    if (filtersAreActive(getFilterState())) {
+      statusEl.textContent = `${visibleCount.toLocaleString()} of ${totalFeatureCount.toLocaleString()} facilities${updated}`;
+      return;
+    }
+    statusEl.textContent = `${totalFeatureCount.toLocaleString()} facilities${updated}`;
+  }
+
+  function applyFilters({ fitBounds = false } = {}) {
+    const filters = getFilterState();
+    const selectedName = selectedMarker
+      ? selectedMarker.feature.properties.name || null
+      : null;
+
+    clusterGroup.clearLayers();
+    selectedMarker = null;
+
+    const visible = allMarkers.filter((marker) =>
+      markerMatchesFilters(marker, filters)
+    );
+
+    let restoredMarker = null;
+    visible.forEach((marker) => {
+      marker.setIcon(markerIcon(marker.feature.properties || {}, false));
+      if (selectedName && marker.feature.properties.name === selectedName) {
+        restoredMarker = marker;
+      }
+    });
+
+    if (visible.length > 0) {
+      clusterGroup.addLayers(visible);
+    }
+
+    if (restoredMarker) {
+      selectMarker(restoredMarker);
+    } else if (selectedName) {
+      detailsEl.innerHTML =
+        '<p class="details-empty">Click a facility pin to see details.</p>';
+    }
+
+    updateStatus(visible.length);
+
+    if (fitBounds && visible.length > 0) {
+      map.fitBounds(clusterGroup.getBounds().pad(0.08));
+      hasFittedBounds = true;
+    }
+  }
+
+  function clearFilters() {
+    filterNameEl.value = "";
+    filterTypeEl.value = "";
+    filterSubtypeEl.value = "";
+    filterAssigneeEl.value = "";
+    filterCountyEl.value = "";
+    filterCityEl.value = "";
+    applyFilters({ fitBounds: true });
+  }
+
   const REFRESH_MS = 5 * 60 * 1000;
   let hasFittedBounds = false;
-  let selectedName = null;
 
   async function loadFacilities({ fitBounds = false, quiet = false } = {}) {
     if (!quiet) {
@@ -378,57 +579,30 @@
     const geojson = await response.json();
     const features = geojson.features || [];
     assigneeColorMap = buildAssigneeColorMap(features);
+    totalFeatureCount = features.length;
+    lastUpdatedAt = new Date().toLocaleTimeString();
 
-    if (selectedMarker) {
-      selectedName = selectedMarker.feature.properties.name || null;
-    }
-
-    clusterGroup.clearLayers();
-    selectedMarker = null;
-
-    let restoredMarker = null;
-    const layer = L.geoJSON(geojson, {
-      pointToLayer(feature, latlng) {
-        const marker = L.marker(latlng, {
-          icon: markerIcon(feature.properties || {}, false),
-          riseOnHover: true,
-        });
-        marker.feature = feature;
-        marker.on("click", () => selectMarker(marker));
-        if (
-          selectedName &&
-          feature.properties &&
-          feature.properties.name === selectedName
-        ) {
-          restoredMarker = marker;
-        }
-        return marker;
-      },
+    allMarkers = features.map((feature) => {
+      const coords = feature.geometry && feature.geometry.coordinates;
+      const latlng = L.latLng(coords[1], coords[0]);
+      const marker = L.marker(latlng, {
+        icon: markerIcon(feature.properties || {}, false),
+        riseOnHover: true,
+      });
+      marker.feature = feature;
+      marker.on("click", () => selectMarker(marker));
+      return marker;
     });
 
-    clusterGroup.addLayer(layer);
+    populateFilters(features);
     renderLegends(features);
-
-    if (restoredMarker) {
-      selectMarker(restoredMarker);
-    } else if (selectedName) {
-      selectedName = null;
-      detailsEl.innerHTML =
-        '<p class="details-empty">Click a facility pin to see details.</p>';
-    }
-
-    if ((fitBounds || !hasFittedBounds) && features.length > 0) {
-      map.fitBounds(clusterGroup.getBounds().pad(0.08));
-      hasFittedBounds = true;
-    }
-
-    const updatedAt = new Date().toLocaleTimeString();
-    statusEl.textContent = `${features.length.toLocaleString()} facilities · updated ${updatedAt}`;
+    applyFilters({
+      fitBounds: fitBounds || !hasFittedBounds,
+    });
   }
 
   map.on("click", () => {
     clearSelection();
-    selectedName = null;
     detailsEl.innerHTML =
       '<p class="details-empty">Click a facility pin to see details.</p>';
   });
@@ -442,6 +616,30 @@
       }
     });
   }
+
+  [filterTypeEl, filterSubtypeEl, filterAssigneeEl, filterCountyEl, filterCityEl].forEach(
+    (el) => {
+      el.addEventListener("change", () => {
+        applyFilters({ fitBounds: true });
+      });
+    }
+  );
+
+  filterNameEl.addEventListener("input", () => {
+    clearTimeout(nameFilterTimer);
+    nameFilterTimer = setTimeout(() => {
+      applyFilters({ fitBounds: true });
+    }, 200);
+  });
+
+  clearFiltersEl.addEventListener("click", () => {
+    clearFilters();
+  });
+
+  document.getElementById("filters").addEventListener("submit", (event) => {
+    event.preventDefault();
+    applyFilters({ fitBounds: true });
+  });
 
   loadFacilitiesOrReport({ fitBounds: true });
   setInterval(() => {

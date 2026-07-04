@@ -131,6 +131,7 @@ def row_to_feature(row: dict[str, str]) -> dict[str, Any] | None:
         "type": (row.get("type") or "").strip(),
         "subtype": (row.get("subtype") or "").strip(),
         "address": build_address(row),
+        "city": (row.get("city") or "").strip(),
         "county": (row.get("county") or "").strip(),
         "assignee": (row.get("assignee") or "Unassigned").strip() or "Unassigned",
         "color": (row.get("color") or "Grey").strip() or "Grey",

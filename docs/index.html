@@ -33,6 +33,53 @@
     </header>
 
     <aside class="sidebar">
+      <section class="panel" id="filters-panel">
+        <div class="panel-heading">
+          <h2>Filters</h2>
+          <button type="button" id="clear-filters" class="text-button">Clear</button>
+        </div>
+        <form id="filters" class="filters" autocomplete="off">
+          <label class="filter-field">
+            <span>Search name</span>
+            <input
+              id="filter-name"
+              type="search"
+              placeholder="Facility name…"
+            />
+          </label>
+          <label class="filter-field">
+            <span>Type</span>
+            <select id="filter-type">
+              <option value="">All types</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Subtype</span>
+            <select id="filter-subtype">
+              <option value="">All subtypes</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Assignee</span>
+            <select id="filter-assignee">
+              <option value="">All assignees</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>County</span>
+            <select id="filter-county">
+              <option value="">All counties</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>City</span>
+            <select id="filter-city">
+              <option value="">All cities</option>
+            </select>
+          </label>
+        </form>
+      </section>
+
       <section class="panel" id="details-panel">
         <h2>Facility details</h2>
         <div id="details">
