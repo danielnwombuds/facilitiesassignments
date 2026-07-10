@@ -2131,31 +2131,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.326941,
-          48.474904
-        ]
-      },
-      "properties": {
-        "name": "OVENELL HOME ALF INC",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "625 E Washington Ave, Burlington, WA",
-        "city": "Burlington",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2172",
-        "service_disclosure": "",
-        "beds": "26",
-        "specialties": "",
-        "facility_poc": "ZIMMERMANN, JOHN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.292682,
           48.438005
         ]
@@ -2924,6 +2899,31 @@
         "beds": "37",
         "specialties": "",
         "facility_poc": "Yesian, George A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326941,
+          48.474904
+        ]
+      },
+      "properties": {
+        "name": "OVENELL HOME ALF INC",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "625 E Washington Ave, Burlington, WA",
+        "city": "Burlington",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2172",
+        "service_disclosure": "",
+        "beds": "22",
+        "specialties": "",
+        "facility_poc": "ZIMMERMANN, JOHN"
       }
     }
   ],
