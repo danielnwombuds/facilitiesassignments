@@ -1181,31 +1181,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.247207,
-          48.512376
-        ]
-      },
-      "properties": {
-        "name": "GARDEN OF EDEN LUXURY AFH LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "211 Garden of Eden Rd, Sedro Woolley, WA",
-        "city": "Sedro Woolley",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758172",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758172",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "Abraha, Robel"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.588691,
           48.539821
         ]
@@ -2656,31 +2631,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31859,
-          48.476536
-        ]
-      },
-      "properties": {
-        "name": "Homeplace Special Care Center at Burlington",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "210 N SKAGIT ST, BURLINGTON, WA",
-        "city": "BURLINGTON",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2787",
-        "service_disclosure": "",
-        "beds": "46",
-        "specialties": "",
-        "facility_poc": "Croney, Harold"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.318799,
           48.476008
         ]
@@ -2924,6 +2874,56 @@
         "beds": "22",
         "specialties": "",
         "facility_poc": "ZIMMERMANN, JOHN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.247207,
+          48.512376
+        ]
+      },
+      "properties": {
+        "name": "GARDEN OF EDEN LUXURY AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "211 Garden of Eden Rd, Sedro Woolley, WA",
+        "city": "Sedro Woolley",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758172",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758172",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Abraha, Robel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31859,
+          48.476536
+        ]
+      },
+      "properties": {
+        "name": "Homeplace Special Care Center at Burlington",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "210 N SKAGIT ST, BURLINGTON, WA",
+        "city": "BURLINGTON",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2787",
+        "service_disclosure": "",
+        "beds": "46",
+        "specialties": "",
+        "facility_poc": "Croney, Harold"
       }
     }
   ],
