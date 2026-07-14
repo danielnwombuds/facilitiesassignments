@@ -2456,31 +2456,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.538451,
-          48.006938
-        ]
-      },
-      "properties": {
-        "name": "MELKAM CARE ADULT FAMILY HOME LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "1429 Morningside Ln, Freeland, WA",
-        "city": "Freeland",
-        "county": "Island",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759070",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759070",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia, Developmental Disabilities",
-        "facility_poc": "TEFERA, AZEB A."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.290609,
           48.427438
         ]
@@ -2924,6 +2899,31 @@
         "beds": "46",
         "specialties": "",
         "facility_poc": "Croney, Harold"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.538451,
+          48.006938
+        ]
+      },
+      "properties": {
+        "name": "MELKAM CARE ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1429 Morningside Ln, Freeland, WA",
+        "city": "Freeland",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759070",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759070",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "TEFERA, AZEB A."
       }
     }
   ],
