@@ -2456,31 +2456,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.290609,
-          48.427438
-        ]
-      },
-      "properties": {
-        "name": "Foxglove Manor AFH",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "3914 Foxglove Cir, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759088",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759088",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "KIRUKI, LUCY N."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.340693,
           48.473134
         ]
@@ -2756,31 +2731,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.22379,
-          48.383913
-        ]
-      },
-      "properties": {
-        "name": "LAKESIDE AFH LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "18034 Mariposa Ln, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759142",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759142",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "WILLIAMS, BRUCE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.481513,
           48.788715
         ]
@@ -2924,6 +2874,56 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "TEFERA, AZEB A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.290609,
+          48.427438
+        ]
+      },
+      "properties": {
+        "name": "Foxglove Manor AFH",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3914 Foxglove Cir, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759088",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759088",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "KIRUKI, LUCY N."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.22379,
+          48.383913
+        ]
+      },
+      "properties": {
+        "name": "LAKESIDE AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "18034 Mariposa Ln, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759142",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759142",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "WILLIAMS, BRUCE"
       }
     }
   ],
