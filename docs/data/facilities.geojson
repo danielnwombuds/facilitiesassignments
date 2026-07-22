@@ -2925,10 +2925,35 @@
         "specialties": "Mental Health, Dementia",
         "facility_poc": "WILLIAMS, BRUCE"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.711068,
+          48.998467
+        ]
+      },
+      "properties": {
+        "name": "MADRONA NEST ADULT FAMILY HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2880 Hazelwood Dr, Blaine, WA",
+        "city": "Blaine",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759197",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759197",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Masombo, Lydia"
+      }
     }
   ],
   "metadata": {
-    "feature_count": 117,
+    "feature_count": 118,
     "skipped_rows": 0
   }
 }
