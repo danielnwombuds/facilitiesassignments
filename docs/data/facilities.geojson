@@ -2950,10 +2950,35 @@
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "Masombo, Lydia"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.495355,
+          48.934638
+        ]
+      },
+      "properties": {
+        "name": "LOYAL PALACE AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "291 Birch Bay Lynden Rd, Lynden, WA",
+        "city": "Lynden",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759210",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759210",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "NJOROGE, JULIA W."
+      }
     }
   ],
   "metadata": {
-    "feature_count": 118,
+    "feature_count": 119,
     "skipped_rows": 0
   }
 }
