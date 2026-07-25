@@ -531,31 +531,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.52637,
-          48.775578
-        ]
-      },
-      "properties": {
-        "name": "Emmanuel Charity AFH Inc",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "3446 Cottonwood Ave, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=756830",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=756830",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "Muigai, Karen"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.489108,
           48.196071
         ]
@@ -2756,31 +2731,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.494453,
-          48.761128
-        ]
-      },
-      "properties": {
-        "name": "Columbia Place",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2315 Williams St, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
-        "service_disclosure": "",
-        "beds": "37",
-        "specialties": "",
-        "facility_poc": "Yesian, George A."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.326941,
           48.474904
         ]
@@ -2974,6 +2924,56 @@
         "beds": "5",
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "NJOROGE, JULIA W."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.526398,
+          48.775564
+        ]
+      },
+      "properties": {
+        "name": "Emmanuel Charity AFH Inc",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3446 Cottonwood Ave, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=756830",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=756830",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Muigai, Karen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.494453,
+          48.761128
+        ]
+      },
+      "properties": {
+        "name": "Columbia Place",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2315 Williams St, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
+        "service_disclosure": "",
+        "beds": "37",
+        "specialties": "",
+        "facility_poc": "Gilkey, Jayne"
       }
     }
   ],
