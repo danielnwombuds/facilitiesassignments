@@ -2131,31 +2131,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.513286,
-          48.173816
-        ]
-      },
-      "properties": {
-        "name": "Crest View LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "1032 CIRCLE DRIVE, CAMANO ISLAND, WA",
-        "city": "CAMANO ISLAND",
-        "county": "Island",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758668",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758668",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "Kifle, Netsanet"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.478399,
           48.94297
         ]
@@ -2349,31 +2324,6 @@
         "beds": "60",
         "specialties": "",
         "facility_poc": "Cope, Sherri L."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.493896,
-          48.772726
-        ]
-      },
-      "properties": {
-        "name": "Woodway Senior Living",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "1712 E Maplewood Ave, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2563",
-        "service_disclosure": "",
-        "beds": "72",
-        "specialties": "",
-        "facility_poc": "Roe, James K."
       }
     },
     {
@@ -2974,6 +2924,56 @@
         "beds": "37",
         "specialties": "",
         "facility_poc": "Gilkey, Jayne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.513286,
+          48.173816
+        ]
+      },
+      "properties": {
+        "name": "Crest View LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1032 CIRCLE DRIVE, CAMANO ISLAND, WA",
+        "city": "CAMANO ISLAND",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758668",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758668",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Kifle, Netsanet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.493896,
+          48.772726
+        ]
+      },
+      "properties": {
+        "name": "Woodway Senior Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1712 E Maplewood Ave, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2563",
+        "service_disclosure": "",
+        "beds": "72",
+        "specialties": "",
+        "facility_poc": "Roe, James K."
       }
     }
   ],
