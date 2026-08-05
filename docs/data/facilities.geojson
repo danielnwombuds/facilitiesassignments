@@ -1356,31 +1356,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.61539,
-          48.511846
-        ]
-      },
-      "properties": {
-        "name": "CHANDLER'S SQUARE",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "1300 O AVE, ANACORTES, WA",
-        "city": "ANACORTES",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1190",
-        "service_disclosure": "",
-        "beds": "37",
-        "specialties": "",
-        "facility_poc": "Howlett, Melissa"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.496787,
           48.799535
         ]
@@ -2556,31 +2531,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.279344,
-          48.496064
-        ]
-      },
-      "properties": {
-        "name": "COUNTRY MEADOW VILLAGE",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "1501 COLLINS RD, SEDRO WOOLLEY, WA",
-        "city": "SEDRO WOOLLEY",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1020",
-        "service_disclosure": "",
-        "beds": "50",
-        "specialties": "",
-        "facility_poc": "Nichols, Stephanie M."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.436207,
           48.963127
         ]
@@ -2674,31 +2624,6 @@
         "beds": "115",
         "specialties": "",
         "facility_poc": "Graham, Jennifer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.326941,
-          48.474904
-        ]
-      },
-      "properties": {
-        "name": "OVENELL HOME ALF INC",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "625 E Washington Ave, Burlington, WA",
-        "city": "Burlington",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2172",
-        "service_disclosure": "",
-        "beds": "22",
-        "specialties": "",
-        "facility_poc": "ZIMMERMANN, JOHN"
       }
     },
     {
@@ -2974,6 +2899,81 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia",
         "facility_poc": "KIRUKI, LUCY N."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.279344,
+          48.496064
+        ]
+      },
+      "properties": {
+        "name": "COUNTRY MEADOW VILLAGE",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1501 COLLINS RD, SEDRO WOOLLEY, WA",
+        "city": "SEDRO WOOLLEY",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1020",
+        "service_disclosure": "",
+        "beds": "50",
+        "specialties": "",
+        "facility_poc": "Nichols, Stephanie M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6154,
+          48.51177
+        ]
+      },
+      "properties": {
+        "name": "CHANDLER'S SQUARE",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1300 O AVE, ANACORTES, WA",
+        "city": "ANACORTES",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1190",
+        "service_disclosure": "",
+        "beds": "37",
+        "specialties": "",
+        "facility_poc": "Howlett, Melissa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.326941,
+          48.474904
+        ]
+      },
+      "properties": {
+        "name": "OVENELL HOME ALF INC",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "625 E Washington Ave, Burlington, WA",
+        "city": "Burlington",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2172",
+        "service_disclosure": "",
+        "beds": "22",
+        "specialties": "",
+        "facility_poc": "ZIMMERMANN, JOHN"
       }
     }
   ],
