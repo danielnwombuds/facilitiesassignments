@@ -156,31 +156,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.496494,
-          48.811832
-        ]
-      },
-      "properties": {
-        "name": "North Cascades Health and Rehabilitation",
-        "type": "Nursing Home",
-        "subtype": "Nursing Facility",
-        "address": "4680 Cordata Parkway, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1680",
-        "service_disclosure": "",
-        "beds": "122",
-        "specialties": "",
-        "facility_poc": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.746874,
           48.999588
         ]
@@ -322,6 +297,31 @@
         "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1761",
         "service_disclosure": "",
         "beds": "52",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.496494,
+          48.811832
+        ]
+      },
+      "properties": {
+        "name": "North Cascades Health and Rehabilitation",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "4680 Cordata Parkway, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1680",
+        "service_disclosure": "",
+        "beds": "122",
         "specialties": "",
         "facility_poc": ""
       }
