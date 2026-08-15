@@ -581,31 +581,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.254334,
-          48.99365
-        ]
-      },
-      "properties": {
-        "name": "Beyond Sight AFH LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "1090 Victoria St, Sumas, WA",
-        "city": "Sumas",
-        "county": "Whatcom",
-        "assignee": "TC",
-        "color": "Purple",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757617",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757617",
-        "beds": "5",
-        "specialties": "Mental Health, Dementia, Developmental Disabilities",
-        "facility_poc": "Githiri, Nancy H."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.680342,
           48.219187
         ]
@@ -2974,6 +2949,31 @@
         "beds": "94",
         "specialties": "",
         "facility_poc": "Brooks, Thomas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.254334,
+          48.99365
+        ]
+      },
+      "properties": {
+        "name": "Beyond Sight AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1090 Victoria St, Sumas, WA",
+        "city": "Sumas",
+        "county": "Whatcom",
+        "assignee": "TC",
+        "color": "Purple",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=757617",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=757617",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Githiri, Nancy H."
       }
     }
   ],
