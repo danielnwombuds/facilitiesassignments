@@ -1256,31 +1256,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.519539,
-          48.011174
-        ]
-      },
-      "properties": {
-        "name": "Maple Ridge Assisted Living Community",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "1767 Alliance Avenue, Freeland, WA",
-        "city": "Freeland",
-        "county": "Island",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1966",
-        "service_disclosure": "",
-        "beds": "81",
-        "specialties": "",
-        "facility_poc": "Chambers, Brenda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.405533,
           48.957608
         ]
@@ -2974,6 +2949,31 @@
         "beds": "5",
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "Githiri, Nancy H."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.519539,
+          48.011174
+        ]
+      },
+      "properties": {
+        "name": "Maple Ridge Assisted Living Community",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "1767 Alliance Avenue, Freeland, WA",
+        "city": "Freeland",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1966",
+        "service_disclosure": "",
+        "beds": "81",
+        "specialties": "",
+        "facility_poc": "Chambers, Brenda"
       }
     }
   ],
