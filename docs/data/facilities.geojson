@@ -2481,31 +2481,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.611837,
-          48.504751
-        ]
-      },
-      "properties": {
-        "name": "Cypress Assisted Living",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "911 21st St, Anacortes, WA",
-        "city": "Anacortes",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2789",
-        "service_disclosure": "",
-        "beds": "44",
-        "specialties": "",
-        "facility_poc": "Brooks, Thomas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.250404,
           48.53321
         ]
@@ -2974,6 +2949,31 @@
         "beds": "81",
         "specialties": "",
         "facility_poc": "Chambers, Brenda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.611741,
+          48.504735
+        ]
+      },
+      "properties": {
+        "name": "Cypress Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "911 21st St, Anacortes, WA",
+        "city": "Anacortes",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2789",
+        "service_disclosure": "",
+        "beds": "44",
+        "specialties": "",
+        "facility_poc": "Brooks, Thomas"
       }
     }
   ],
