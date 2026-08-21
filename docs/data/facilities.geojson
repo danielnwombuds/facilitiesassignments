@@ -2406,31 +2406,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.476545,
-          48.72647
-        ]
-      },
-      "properties": {
-        "name": "Chuckanut Ridge Assisted Living",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "702 32ND ST, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
-        "service_disclosure": "",
-        "beds": "70",
-        "specialties": "",
-        "facility_poc": "BLOCKBURN, VERONICA L."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.318799,
           48.476008
         ]
@@ -2974,6 +2949,31 @@
         "beds": "44",
         "specialties": "",
         "facility_poc": "Brooks, Thomas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.476545,
+          48.72647
+        ]
+      },
+      "properties": {
+        "name": "Chuckanut Ridge Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "702 32ND ST, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
+        "service_disclosure": "",
+        "beds": "70",
+        "specialties": "",
+        "facility_poc": "BLOCKBURN, VERONICA L."
       }
     }
   ],
