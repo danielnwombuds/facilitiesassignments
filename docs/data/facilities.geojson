@@ -1156,31 +1156,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.47884,
-          48.713248
-        ]
-      },
-      "properties": {
-        "name": "SUMMIT PLACE ASSISTED LIVING",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2905   CONNELLY   AVE, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1606",
-        "service_disclosure": "",
-        "beds": "47",
-        "specialties": "",
-        "facility_poc": "McMains, Elizabeth M."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.660705,
           48.292795
         ]
@@ -1499,31 +1474,6 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia",
         "facility_poc": "Tekle, Bereket"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.433204,
-          48.953461
-        ]
-      },
-      "properties": {
-        "name": "DELIGHT CARE AFH LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "1048 Ridgeway Dr, Lynden, WA",
-        "city": "Lynden",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758304",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758304",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "Habtemaryam, Selas D."
       }
     },
     {
@@ -2974,6 +2924,56 @@
         "beds": "70",
         "specialties": "",
         "facility_poc": "BLOCKBURN, VERONICA L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.433204,
+          48.953461
+        ]
+      },
+      "properties": {
+        "name": "DELIGHT CARE AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1048 Ridgeway Dr, Lynden, WA",
+        "city": "Lynden",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758304",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758304",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Habtemaryam, Selas D."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47884,
+          48.713248
+        ]
+      },
+      "properties": {
+        "name": "SUMMIT PLACE ASSISTED LIVING",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2905   CONNELLY   AVE, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1606",
+        "service_disclosure": "",
+        "beds": "47",
+        "specialties": "",
+        "facility_poc": "McMains, Elizabeth M."
       }
     }
   ],
