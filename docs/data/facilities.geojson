@@ -2181,31 +2181,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.484171,
-          48.779212
-        ]
-      },
-      "properties": {
-        "name": "The Bellingham at Orchard",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "848 West Orchard Dr, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2779",
-        "service_disclosure": "",
-        "beds": "76",
-        "specialties": "",
-        "facility_poc": "Maimin, Michael"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.74933,
           48.937668
         ]
@@ -2856,31 +2831,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.611741,
-          48.504735
-        ]
-      },
-      "properties": {
-        "name": "Cypress Assisted Living",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "911 21st St, Anacortes, WA",
-        "city": "Anacortes",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2789",
-        "service_disclosure": "",
-        "beds": "44",
-        "specialties": "",
-        "facility_poc": "Brooks, Thomas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.476545,
           48.72647
         ]
@@ -2953,7 +2903,7 @@
     }
   ],
   "metadata": {
-    "feature_count": 118,
+    "feature_count": 116,
     "skipped_rows": 0
   }
 }
