@@ -1156,31 +1156,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.660705,
-          48.292795
-        ]
-      },
-      "properties": {
-        "name": "Welcome Home (Oak Harbor Senior Memory Care)",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "235 SW 6TH AVE, OAK HARBOR, WA",
-        "city": "OAK HARBOR",
-        "county": "Island",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2424",
-        "service_disclosure": "",
-        "beds": "52",
-        "specialties": "",
-        "facility_poc": "Rush, Myan M."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.649538,
           48.301907
         ]
@@ -1849,31 +1824,6 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia",
         "facility_poc": "ANTON, CONSTANTIN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.312152,
-          48.421421
-        ]
-      },
-      "properties": {
-        "name": "Whispering Willows of Mount Vernon",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2311 E Division St, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2726",
-        "service_disclosure": "",
-        "beds": "82",
-        "specialties": "",
-        "facility_poc": "Bah, Gavina"
       }
     },
     {
@@ -2831,31 +2781,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.476545,
-          48.72647
-        ]
-      },
-      "properties": {
-        "name": "Chuckanut Ridge Assisted Living",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "702 32ND ST, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
-        "service_disclosure": "",
-        "beds": "70",
-        "specialties": "",
-        "facility_poc": "BLOCKBURN, VERONICA L."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.433204,
           48.953461
         ]
@@ -2899,6 +2824,81 @@
         "beds": "47",
         "specialties": "",
         "facility_poc": "McMains, Elizabeth M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.660705,
+          48.292795
+        ]
+      },
+      "properties": {
+        "name": "Welcome Home (Oak Harbor Senior Memory Care)",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "235 SW 6TH AVE, OAK HARBOR, WA",
+        "city": "OAK HARBOR",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2424",
+        "service_disclosure": "",
+        "beds": "52",
+        "specialties": "",
+        "facility_poc": "Rush, Myan M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312152,
+          48.421421
+        ]
+      },
+      "properties": {
+        "name": "Whispering Willows of Mount Vernon",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2311 E Division St, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2726",
+        "service_disclosure": "",
+        "beds": "82",
+        "specialties": "",
+        "facility_poc": "Bah, Gavina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.476545,
+          48.72647
+        ]
+      },
+      "properties": {
+        "name": "Chuckanut Ridge Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "702 32ND ST, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
+        "service_disclosure": "",
+        "beds": "70",
+        "specialties": "",
+        "facility_poc": "BLOCKBURN, VERONICA L."
       }
     }
   ],
