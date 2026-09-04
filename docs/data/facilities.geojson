@@ -2706,31 +2706,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.61509,
-          48.500629
-        ]
-      },
-      "properties": {
-        "name": "Rosario Assisted Living and Memory Care",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "1119 26th Street, Anacortes, WA",
-        "city": "Anacortes",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2791",
-        "service_disclosure": "",
-        "beds": "94",
-        "specialties": "",
-        "facility_poc": "Brooks, Thomas"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.254334,
           48.99365
         ]
@@ -2856,6 +2831,31 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -122.476545,
+          48.72647
+        ]
+      },
+      "properties": {
+        "name": "Chuckanut Ridge Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "702 32ND ST, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
+        "service_disclosure": "",
+        "beds": "70",
+        "specialties": "",
+        "facility_poc": "BLOCKBURN, VERONICA L."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -122.312152,
           48.421421
         ]
@@ -2881,24 +2881,24 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.476545,
-          48.72647
+          -122.61509,
+          48.500629
         ]
       },
       "properties": {
-        "name": "Chuckanut Ridge Assisted Living",
+        "name": "Rosario Assisted Living and Memory Care",
         "type": "Residential Care",
         "subtype": "Assisted Living Facility",
-        "address": "702 32ND ST, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
+        "address": "1119 26th Street, Anacortes, WA",
+        "city": "Anacortes",
+        "county": "Skagit",
         "assignee": "Unassigned",
         "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2747",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2791",
         "service_disclosure": "",
-        "beds": "70",
+        "beds": "94",
         "specialties": "",
-        "facility_poc": "BLOCKBURN, VERONICA L."
+        "facility_poc": "Bachmann, Jennifer J."
       }
     }
   ],
