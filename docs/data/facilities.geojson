@@ -2781,31 +2781,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.47884,
-          48.713248
-        ]
-      },
-      "properties": {
-        "name": "SUMMIT PLACE ASSISTED LIVING",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2905   CONNELLY   AVE, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1606",
-        "service_disclosure": "",
-        "beds": "47",
-        "specialties": "",
-        "facility_poc": "McMains, Elizabeth M."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.660705,
           48.292795
         ]
@@ -2899,6 +2874,31 @@
         "beds": "94",
         "specialties": "",
         "facility_poc": "Bachmann, Jennifer J."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47884,
+          48.713248
+        ]
+      },
+      "properties": {
+        "name": "SUMMIT PLACE ASSISTED LIVING",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2905   CONNELLY   AVE, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1606",
+        "service_disclosure": "",
+        "beds": "47",
+        "specialties": "",
+        "facility_poc": "McMains, Elizabeth M."
       }
     }
   ],
