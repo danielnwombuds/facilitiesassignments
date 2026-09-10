@@ -1756,31 +1756,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.497609,
-          48.799048
-        ]
-      },
-      "properties": {
-        "name": "Cordata Court, Assisted Living & Memory Care",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "4415 Columbine Dr, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2481",
-        "service_disclosure": "",
-        "beds": "115",
-        "specialties": "",
-        "facility_poc": "Mason, Kristina B."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.224857,
           48.493146
         ]
@@ -2899,6 +2874,31 @@
         "beds": "47",
         "specialties": "",
         "facility_poc": "McMains, Elizabeth M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.497609,
+          48.799048
+        ]
+      },
+      "properties": {
+        "name": "Cordata Court, Assisted Living & Memory Care",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "4415 Columbine Dr, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2481",
+        "service_disclosure": "",
+        "beds": "115",
+        "specialties": "",
+        "facility_poc": "Paquette, ELICIA A."
       }
     }
   ],
