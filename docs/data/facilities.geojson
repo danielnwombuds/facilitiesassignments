@@ -2856,31 +2856,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.497609,
-          48.799048
-        ]
-      },
-      "properties": {
-        "name": "Cordata Court, Assisted Living & Memory Care",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "4415 Columbine Dr, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2481",
-        "service_disclosure": "",
-        "beds": "115",
-        "specialties": "",
-        "facility_poc": "Paquette, ELICIA A."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.495355,
           48.934638
         ]
@@ -2900,10 +2875,60 @@
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "NJOROGE, JULIA W."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.497609,
+          48.799048
+        ]
+      },
+      "properties": {
+        "name": "Cordata Court, Assisted Living & Memory Care",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "4415 Columbine Dr, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2481",
+        "service_disclosure": "",
+        "beds": "115",
+        "specialties": "",
+        "facility_poc": "Smith, Pauline"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.611741,
+          48.504735
+        ]
+      },
+      "properties": {
+        "name": "Cypress Assisted Living",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "911 21st St, Anacortes, WA",
+        "city": "Anacortes",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2789",
+        "service_disclosure": "",
+        "beds": "44",
+        "specialties": "",
+        "facility_poc": "Bachmann, Jennifer J."
+      }
     }
   ],
   "metadata": {
-    "feature_count": 116,
+    "feature_count": 117,
     "skipped_rows": 0
   }
 }
