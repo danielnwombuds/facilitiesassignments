@@ -2131,31 +2131,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.340693,
-          48.473134
-        ]
-      },
-      "properties": {
-        "name": "Where The Heart Is",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "410 S NORRIS ST, BURLINGTON, WA",
-        "city": "BURLINGTON",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2780",
-        "service_disclosure": "",
-        "beds": "84",
-        "specialties": "",
-        "facility_poc": "Bachman, Jennifer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.486012,
           48.757929
         ]
@@ -2781,31 +2756,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.312152,
-          48.421421
-        ]
-      },
-      "properties": {
-        "name": "Whispering Willows of Mount Vernon",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2311 E Division St, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2726",
-        "service_disclosure": "",
-        "beds": "82",
-        "specialties": "",
-        "facility_poc": "Bah, Gavina"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.61509,
           48.500629
         ]
@@ -2924,6 +2874,56 @@
         "beds": "44",
         "specialties": "",
         "facility_poc": "Bachmann, Jennifer J."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.312152,
+          48.421421
+        ]
+      },
+      "properties": {
+        "name": "Whispering Willows of Mount Vernon",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2311 E Division St, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2726",
+        "service_disclosure": "",
+        "beds": "82",
+        "specialties": "",
+        "facility_poc": "Bah, Gavina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.340693,
+          48.473134
+        ]
+      },
+      "properties": {
+        "name": "Where The Heart Is",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "410 S NORRIS ST, BURLINGTON, WA",
+        "city": "BURLINGTON",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2780",
+        "service_disclosure": "",
+        "beds": "84",
+        "specialties": "",
+        "facility_poc": "Ly, Yaya"
       }
     }
   ],
