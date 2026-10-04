@@ -956,31 +956,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.219656,
-          48.502162
-        ]
-      },
-      "properties": {
-        "name": "Living In Comfort LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "1231 Warner St, Sedro Woolley, WA",
-        "city": "Sedro Woolley",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753581",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753581",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia, Developmental Disabilities",
-        "facility_poc": "Seifu, Emebet T."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.225438,
           48.524673
         ]
@@ -1356,31 +1331,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.603465,
-          48.849427
-        ]
-      },
-      "properties": {
-        "name": "Avista Senior Living Ferndale",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2240 Main St, Ferndale, WA",
-        "city": "Ferndale",
-        "county": "Whatcom",
-        "assignee": "DW",
-        "color": "Red",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2677",
-        "service_disclosure": "",
-        "beds": "47",
-        "specialties": "",
-        "facility_poc": "Franklin, Chloe R."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.291436,
           48.414947
         ]
@@ -1424,31 +1374,6 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia",
         "facility_poc": "Tekle, Bereket"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.618577,
-          48.848135
-        ]
-      },
-      "properties": {
-        "name": "GRACE RETIREMENT HOME LLC",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2543 MOUNTAIN VIEW RD, FERNDALE, WA",
-        "city": "FERNDALE",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1722",
-        "service_disclosure": "",
-        "beds": "12",
-        "specialties": "",
-        "facility_poc": "Mekonnen, Tsegaye A."
       }
     },
     {
@@ -1824,31 +1749,6 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "WAITHAKA, FAITH M."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.313937,
-          48.419223
-        ]
-      },
-      "properties": {
-        "name": "THE BRIDGE ASSISTED LIVING AT MOUNT VERNON",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "301 S Laventure Rd, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1826",
-        "service_disclosure": "",
-        "beds": "50",
-        "specialties": "",
-        "facility_poc": "Nicholson, Shannon"
       }
     },
     {
@@ -2274,31 +2174,6 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "Kidanemariam, Ruth G."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.481513,
-          48.788715
-        ]
-      },
-      "properties": {
-        "name": "SPRING CREEK RETIREMENT & ASSISTED LIVING COMMUNITY",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "223 EAST BAKERVIEW ROAD, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1913",
-        "service_disclosure": "",
-        "beds": "115",
-        "specialties": "",
-        "facility_poc": "Graham, Jennifer"
       }
     },
     {
@@ -2924,6 +2799,131 @@
         "beds": "84",
         "specialties": "",
         "facility_poc": "Ly, Yaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.219656,
+          48.502162
+        ]
+      },
+      "properties": {
+        "name": "Living In Comfort LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "1231 Warner St, Sedro Woolley, WA",
+        "city": "Sedro Woolley",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753581",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753581",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Seifu, Emebet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.618577,
+          48.848135
+        ]
+      },
+      "properties": {
+        "name": "GRACE RETIREMENT HOME LLC",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2543 MOUNTAIN VIEW RD, FERNDALE, WA",
+        "city": "FERNDALE",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1722",
+        "service_disclosure": "",
+        "beds": "12",
+        "specialties": "",
+        "facility_poc": "Mekonnen, Tsegaye A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3138,
+          48.41922
+        ]
+      },
+      "properties": {
+        "name": "THE BRIDGE ASSISTED LIVING AT MOUNT VERNON",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "301 S Laventure Rd, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1826",
+        "service_disclosure": "",
+        "beds": "50",
+        "specialties": "",
+        "facility_poc": "Nicholson, Shannon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.481513,
+          48.788715
+        ]
+      },
+      "properties": {
+        "name": "SPRING CREEK RETIREMENT & ASSISTED LIVING COMMUNITY",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "223 EAST BAKERVIEW ROAD, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1913",
+        "service_disclosure": "",
+        "beds": "115",
+        "specialties": "",
+        "facility_poc": "Graham, Jennifer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.603465,
+          48.849427
+        ]
+      },
+      "properties": {
+        "name": "Avista Senior Living Ferndale",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2240 Main St, Ferndale, WA",
+        "city": "Ferndale",
+        "county": "Whatcom",
+        "assignee": "DW",
+        "color": "Red",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2677",
+        "service_disclosure": "",
+        "beds": "47",
+        "specialties": "",
+        "facility_poc": "Franklin, Chloe R."
       }
     }
   ],
