@@ -856,31 +856,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.432615,
-          48.950325
-        ]
-      },
-      "properties": {
-        "name": "Glorious Family Home Care Inc",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "201 S GARDEN DR, LYNDEN, WA",
-        "city": "LYNDEN",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753663",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753663",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia, Developmental Disabilities",
-        "facility_poc": "Shinohara, Ryo"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.45356,
           48.950457
         ]
@@ -2924,6 +2899,31 @@
         "beds": "47",
         "specialties": "",
         "facility_poc": "Franklin, Chloe R."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.432615,
+          48.950325
+        ]
+      },
+      "properties": {
+        "name": "Glorious Family Home Care Inc",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "201 S GARDEN DR, LYNDEN, WA",
+        "city": "LYNDEN",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=753663",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=753663",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "Shinohara, Ryo"
       }
     }
   ],
