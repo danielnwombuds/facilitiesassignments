@@ -131,31 +131,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.31761,
-          48.419116
-        ]
-      },
-      "properties": {
-        "name": "Mira Vista Care Center",
-        "type": "Nursing Home",
-        "subtype": "Nursing Facility",
-        "address": "300 S 18th Street, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "LC",
-        "color": "Orange",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1645",
-        "service_disclosure": "",
-        "beds": "94",
-        "specialties": "",
-        "facility_poc": ""
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.746874,
           48.999588
         ]
@@ -322,6 +297,31 @@
         "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1680",
         "service_disclosure": "",
         "beds": "122",
+        "specialties": "",
+        "facility_poc": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31761,
+          48.419116
+        ]
+      },
+      "properties": {
+        "name": "Mira Vista Care Center",
+        "type": "Nursing Home",
+        "subtype": "Nursing Facility",
+        "address": "300 S 18th Street, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "LC",
+        "color": "Orange",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/NHForms.aspx?lic=1645",
+        "service_disclosure": "",
+        "beds": "94",
         "specialties": "",
         "facility_poc": ""
       }
