@@ -2925,10 +2925,35 @@
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "Shinohara, Ryo"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.621141,
+          48.493969
+        ]
+      },
+      "properties": {
+        "name": "LIGHTHOUSE MEMORY CARE",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "3502 K AVENUE, ANACORTES, WA",
+        "city": "ANACORTES",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2204",
+        "service_disclosure": "",
+        "beds": "39",
+        "specialties": "",
+        "facility_poc": "Margeson, Todd D."
+      }
     }
   ],
   "metadata": {
-    "feature_count": 117,
+    "feature_count": 118,
     "skipped_rows": 0
   }
 }
