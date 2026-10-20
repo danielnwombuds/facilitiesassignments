@@ -1356,31 +1356,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.299344,
-          48.440445
-        ]
-      },
-      "properties": {
-        "name": "AGAPE 1ST AFH LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "3206 Trumpeter Dr, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758365",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758365",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia, Developmental Disabilities",
-        "facility_poc": "ARAYA, SELAM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.229281,
           48.499126
         ]
@@ -2949,6 +2924,31 @@
         "beds": "39",
         "specialties": "",
         "facility_poc": "Margeson, Todd D."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.299344,
+          48.440445
+        ]
+      },
+      "properties": {
+        "name": "AGAPE 1ST AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "3206 Trumpeter Dr, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758365",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758365",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia, Developmental Disabilities",
+        "facility_poc": "ARAYA, SELAM"
       }
     }
   ],
