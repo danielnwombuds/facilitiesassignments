@@ -1056,31 +1056,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.919398,
-          48.705658
-        ]
-      },
-      "properties": {
-        "name": "ORCAS LOVING CARE INC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "113 MICHAEL LANE, EASTSOUND, WA",
-        "city": "EASTSOUND",
-        "county": "San Juan",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=752235",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=752235",
-        "beds": "3",
-        "specialties": "Dementia",
-        "facility_poc": "Tyree, Timothy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.588691,
           48.539821
         ]
@@ -2949,6 +2924,31 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia, Developmental Disabilities",
         "facility_poc": "ARAYA, SELAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.919398,
+          48.705658
+        ]
+      },
+      "properties": {
+        "name": "ORCAS LOVING CARE INC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "113 MICHAEL LANE, EASTSOUND, WA",
+        "city": "EASTSOUND",
+        "county": "San Juan",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=752235",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=752235",
+        "beds": "3",
+        "specialties": "Dementia",
+        "facility_poc": "Tyree, Daphne A."
       }
     }
   ],
