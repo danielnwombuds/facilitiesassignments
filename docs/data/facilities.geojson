@@ -1006,31 +1006,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.666039,
-          48.744642
-        ]
-      },
-      "properties": {
-        "name": "Happy Quest Adult Family LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "2835 Haxton Way, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758123",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758123",
-        "beds": "5",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "Mbaya, Sammy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.292726,
           48.437807
         ]
@@ -2949,6 +2924,31 @@
         "beds": "3",
         "specialties": "Dementia",
         "facility_poc": "Tyree, Daphne A."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.666039,
+          48.744642
+        ]
+      },
+      "properties": {
+        "name": "Happy Quest Adult Family LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "2835 Haxton Way, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=758123",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=758123",
+        "beds": "5",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Mbaya, Sammy"
       }
     }
   ],
