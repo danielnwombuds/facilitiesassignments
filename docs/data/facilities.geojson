@@ -1531,31 +1531,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.661384,
-          48.291966
-        ]
-      },
-      "properties": {
-        "name": "Whidbey Island Memory Care",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "171 SW 6TH AVE, OAK HARBOR, WA",
-        "city": "OAK HARBOR",
-        "county": "Island",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2769",
-        "service_disclosure": "",
-        "beds": "50",
-        "specialties": "",
-        "facility_poc": "Martin, Wendy"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.67109,
           48.2855
         ]
@@ -1749,31 +1724,6 @@
         "beds": "40",
         "specialties": "",
         "facility_poc": "Bowman, Catherine"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.482631,
-          48.779267
-        ]
-      },
-      "properties": {
-        "name": "ORCHARD PARK ASSISTED LIVING",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "844 W ORCHARD DRIVE, BELLINGHAM, WA",
-        "city": "BELLINGHAM",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1350",
-        "service_disclosure": "",
-        "beds": "96",
-        "specialties": "",
-        "facility_poc": "Gollen, Ruth M."
       }
     },
     {
@@ -2224,31 +2174,6 @@
         "beds": "6",
         "specialties": "Mental Health, Dementia",
         "facility_poc": "Muigai, Karen"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.494453,
-          48.761128
-        ]
-      },
-      "properties": {
-        "name": "Columbia Place",
-        "type": "Residential Care",
-        "subtype": "Assisted Living Facility",
-        "address": "2315 Williams St, Bellingham, WA",
-        "city": "Bellingham",
-        "county": "Whatcom",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
-        "service_disclosure": "",
-        "beds": "37",
-        "specialties": "",
-        "facility_poc": "Gilkey, Jayne"
       }
     },
     {
@@ -2949,6 +2874,81 @@
         "beds": "5",
         "specialties": "Mental Health, Dementia",
         "facility_poc": "Mbaya, Sammy"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.482631,
+          48.779267
+        ]
+      },
+      "properties": {
+        "name": "ORCHARD PARK ASSISTED LIVING",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "844 W ORCHARD DRIVE, BELLINGHAM, WA",
+        "city": "BELLINGHAM",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=1350",
+        "service_disclosure": "",
+        "beds": "96",
+        "specialties": "",
+        "facility_poc": "Gollen, Ruth M."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.494453,
+          48.761128
+        ]
+      },
+      "properties": {
+        "name": "Columbia Place",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "2315 Williams St, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2451",
+        "service_disclosure": "",
+        "beds": "37",
+        "specialties": "",
+        "facility_poc": "Gilkey, Jayne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.661384,
+          48.291966
+        ]
+      },
+      "properties": {
+        "name": "Whidbey Island Memory Care",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "171 SW 6TH AVE, OAK HARBOR, WA",
+        "city": "OAK HARBOR",
+        "county": "Island",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2769",
+        "service_disclosure": "",
+        "beds": "50",
+        "specialties": "",
+        "facility_poc": "Martin, Wendy"
       }
     }
   ],
