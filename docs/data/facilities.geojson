@@ -2950,10 +2950,35 @@
         "specialties": "",
         "facility_poc": "Jones, Katie"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.484171,
+          48.779212
+        ]
+      },
+      "properties": {
+        "name": "The Bellingham at Orchard",
+        "type": "Residential Care",
+        "subtype": "Assisted Living Facility",
+        "address": "848 West Orchard Dr, Bellingham, WA",
+        "city": "Bellingham",
+        "county": "Whatcom",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/BHForms.aspx?lic=2779",
+        "service_disclosure": "",
+        "beds": "76",
+        "specialties": "",
+        "facility_poc": "Maimin, Michael"
+      }
     }
   ],
   "metadata": {
-    "feature_count": 118,
+    "feature_count": 119,
     "skipped_rows": 0
   }
 }
