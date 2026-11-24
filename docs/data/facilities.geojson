@@ -2056,31 +2056,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.22379,
-          48.383913
-        ]
-      },
-      "properties": {
-        "name": "LAKESIDE AFH LLC",
-        "type": "Residential Care",
-        "subtype": "Adult Family Home",
-        "address": "18034 Mariposa Ln, Mount Vernon, WA",
-        "city": "Mount Vernon",
-        "county": "Skagit",
-        "assignee": "Unassigned",
-        "color": "Grey",
-        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759142",
-        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759142",
-        "beds": "6",
-        "specialties": "Mental Health, Dementia",
-        "facility_poc": "WILLIAMS, BRUCE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.711068,
           48.998467
         ]
@@ -2974,6 +2949,31 @@
         "beds": "76",
         "specialties": "",
         "facility_poc": "Maimin, Michael"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.22379,
+          48.383913
+        ]
+      },
+      "properties": {
+        "name": "LAKESIDE AFH LLC",
+        "type": "Residential Care",
+        "subtype": "Adult Family Home",
+        "address": "18034 Mariposa Ln, Mount Vernon, WA",
+        "city": "Mount Vernon",
+        "county": "Skagit",
+        "assignee": "Unassigned",
+        "color": "Grey",
+        "reports_location": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHForms.aspx?lic=759142",
+        "service_disclosure": "https://fortress.wa.gov/dshs/adsaapps/lookup/AFHServices.aspx?lic=759142",
+        "beds": "6",
+        "specialties": "Mental Health, Dementia",
+        "facility_poc": "Nginya, David"
       }
     }
   ],
